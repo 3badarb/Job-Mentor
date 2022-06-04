@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         for ($i=0;$i<10;$i++) {
             $u = \App\Models\userinfo::factory()->create();
             \App\Models\usermodel1::factory(['userinfo_id' => $u->id])->create();
-            \App\Models\usermodel2::factory(['userinfo_id' => $u->id])->create();
+            \App\Models\usermodel2::factory(['user_id' => $u->user_id])->create();
 
             $c=\App\Models\User::factory()->create(['tag'=>'C']);
 

@@ -62,5 +62,9 @@ public function companyinfo(){
     {
      return $this->belongsToMany(job::class)->withTimestamps();
     }
+    public function model2(){
 
+        return $this->hasOne(usermodel2::class);
+
+    }
 }

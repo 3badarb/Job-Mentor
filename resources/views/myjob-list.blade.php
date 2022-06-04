@@ -382,7 +382,7 @@
                                 @endif
                                 @empty
                                     <h1
-                                        class="">No Jobs Yet.</h1>
+                                        class="text-center">No Jobs Yet.</h1>
 
                                 @endforelse
                             </div>

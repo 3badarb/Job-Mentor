@@ -18,6 +18,7 @@ use App\Http\Controllers\SignController;
     Route::put('/change-password',[SignController::class,'changepassword']);
     Route::put('/update',[SignController::class,'update']);
 
+    Route::put('/update-jobtitle',[SignController::class,'updatejobtitle']);
 
         Route::get('/profile', function () {return view('profile',[
             'info'=>auth()->user()->userinfo,
@@ -52,6 +53,7 @@ use App\Http\Controllers\SignController;
         Route::get('/the-perfects/{job}',[\App\Http\Controllers\jobController::class,'theperfects']);
         Route::get('/show-matching-jobs',[\App\Http\Controllers\userController::class,'perfectjobs']);
         Route::delete('/delete-apply/{job}',[\App\Http\Controllers\userController::class,'deleteapply']);
+        Route::post('/updatemodel2',[\App\Http\Controllers\userController::class,'storemodel2']);
 
 
 //});
@@ -65,6 +67,11 @@ use App\Http\Controllers\SignController;
     ]);});
 
     Route::get('/search-job',[\App\Http\Controllers\jobController::class,'search']);
+
+    Route::get('/company-list',function (){return view('company-list',[
+        'companies'=>\App\Models\User::with('companyinfo')
+        ->where('tag','C')->paginate(9)]);});
+
 
     Route::get('/continue-co',function (){return view('continue-co');});
 
@@ -86,7 +93,10 @@ use App\Http\Controllers\SignController;
 
     Route::post('/edit',[SignController::class,'update']);
 
+    Route::post('/newtest',function (){
 
+        dd(request());
+    });
     Route::get('/test',function (){
         try {
             $response=Http::post('http://192.168.43.156:3000/userClass' );
@@ -100,9 +110,9 @@ use App\Http\Controllers\SignController;
 
     });
 
-    Route::get('/', function () { return view('index'); });
+    Route::get('/', function () { return view('index',['jobs'=>\App\Models\job::latest()->take(4)->get()]); });
 
-    Route::get('/index', function () { return view('index'); });
+    Route::get('/index', function () { return view('index',['jobs'=>\App\Models\job::latest()->take(4)->get()]); });
 
 
 

@@ -50,7 +50,7 @@
                     <a class="nav-link" href="javascript:void(0)"
                        id="pagesdoropdown" role="button"
                        data-bs-toggle="dropdown">
-                        Candidates/Companys
+                        Companys
                         <i class="uil uil-arrow-down"></i>
                     </a>
                     <div class="dropdown-menu
@@ -59,11 +59,11 @@
                         <div class="row">
                             <div class="col-12">
                                 <div>
+{{--                                    <a class="dropdown-item"--}}
+{{--                                       href="candidate-list.blade.php">Candidate--}}
+{{--                                        List</a>--}}
                                     <a class="dropdown-item"
-                                       href="candidate-list.blade.php">Candidate
-                                        List</a>
-                                    <a class="dropdown-item"
-                                       href="company-list.blade.php">Company
+                                       href="/company-list">Company
                                         List</a>
 
                                 </div>

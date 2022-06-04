@@ -22,7 +22,7 @@ return new class extends Migration
             $table->text('education');
             $table->text('skills');
             $table->text('expirence');
-            $table->string('jobtitle')->default("");
+            $table->string('jobtitle')->nullable();
             $table->date('birth');
             $table->string('resident');
             $table->string('from');

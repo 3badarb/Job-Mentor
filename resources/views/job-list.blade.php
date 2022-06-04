@@ -162,9 +162,8 @@
                                                                 <p
                                                                     class="text-muted
                                                                     fs-14
-                                                                    mb-0"><i
-                                                                        class="uil
-                                                                        uil-wallet"></i>
+                                                                    mb-0"><span
+                                                                        class="text-primary">$</span>
                                                                     {{$job->salary}}</p>
                                                             </li>
                                                         </ul>
@@ -294,9 +293,8 @@
                                                                         <p
                                                                             class="text-muted
                                                                     fs-14
-                                                                    mb-0"><i
-                                                                                class="uil
-                                                                        uil-wallet"></i>
+                                                                    mb-0"><span
+                                                                                class="text-primary">$</span>
                                                                             {{$job->salary}}</p>
                                                                     </li>
                                                                 </ul>
@@ -364,7 +362,7 @@
                                 @endif
                                 @empty
                                     <h1
-                                        class="offset-md-4 mb-0 ">No Jobs Yet.</h1>
+                                        class="text-center">No Jobs Yet.</h1>
 
                                 @endforelse
                             </div>

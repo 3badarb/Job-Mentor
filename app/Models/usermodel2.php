@@ -10,8 +10,8 @@ class usermodel2 extends Model
     use HasFactory;
     protected $guarded=[];
 
-    public function myuserinfo(){
-        return $this->belongsTo(userinfo::class,'userinfo_id');
+    public function myuser(){
+        return $this->belongsTo(User::class,'userinfo_id');
 
     }
 }

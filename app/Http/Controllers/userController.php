@@ -48,5 +48,23 @@ class userController extends Controller
         return auth()->user()->jobs->contains($id);
     }
 
+    public function storemodel2(){
+            $infos=auth()->user()->userinfo;
+        try {
+            $response=Http::post('http://192.168.43.156:3000/userClass',[
+                'yoe'=>\request('yoe'),
+                'job title'=>$infos->jobtitle,
+                'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+            ]);
+
+            $model2=$response;
+        }
+        catch (\Illuminate\Http\Client\ConnectionException $e){
+            $model2=['salary'=>2,'evaluation'=>3];
+        }
+        auth()->user()->model2()->create($model2);
+        return back();
+    }
+
 
 }

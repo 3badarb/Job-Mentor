@@ -71,7 +71,7 @@
                             <div class="row align-items-center mb-0 pb-0">
                                 <div class="col-lg-7 mb-0 pb-0">
                                     <div class="mb-4 pb-3 me-lg-5">
-                                        <h6 class="sub-title">We have {{\App\Models\job::all()->count()}}
+                                        <h6 class="text-primary">We have {{\App\Models\job::all()->count()}}
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
                                             your dream jobs with <span
@@ -335,20 +335,17 @@
                                                                         text-primary
                                                                         me-1"></i>
 
-                                                                                        <p
-                                                                                            class="text-muted
-                                                                    mb-0"> {{$job->created_at->diffForHumans()}}</p>
+                                                                        <p
+                                                                            class="text-muted  mb-0">
+                                                                            {{$job->created_at->diffForHumans()}}</p>
                                                                                     </div>
                                                                                 </li>
 
                                                                                 <li
                                                                                     class="">
                                                                                     <p
-                                                                                        class="text-muted
-                                                                    fs-14
-                                                                    mb-0"><i
-                                                                                            class="uil
-                                                                        uil-wallet"></i>
+                                                                                        class="text-muted fs-14 mb-0"><i
+                                                                                            class="uil uil-wallet"></i>
                                                                                         {{$job->salary}}</p>
                                                                                 </li>
                                                                             </ul>
@@ -367,8 +364,7 @@
                                                                 </div> -->
                                                             </div>
                                                             <div class="p-3 bg-light">
-                                                                <div class="row
-                                                justify-content-between">
+                                                                <div class="row justify-content-between">
                                                                     <div class="col-md-8">
 
                                                                         <!-- <div>
@@ -416,7 +412,7 @@
                                                 @endif
                                             @empty
                                                 <h5
-                                                    class="offset-md-4 mb-0 mt-4     ">No Jobs Yet.</h5>
+                                                    class="text-center">No Jobs Yet.</h5>
 
                                             @endforelse
                                         </div>

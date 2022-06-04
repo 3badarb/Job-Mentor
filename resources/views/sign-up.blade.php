@@ -189,7 +189,7 @@
                                                                         class="btn
                                                                         btn-white
                                                                         btn-hover
-                                                                        w-100">Sign
+                                                                        w-100">Sign Up
                                                                         </button>
                                                                 </div>
                                                                 <div class="mt-3

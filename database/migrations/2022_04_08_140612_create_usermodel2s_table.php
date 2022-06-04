@@ -15,11 +15,12 @@ return new class extends Migration
     {
         Schema::create('usermodel2s', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('userinfo_id')
+            $table->foreignId('user_id')
                 ->references('id')
-                ->on('userinfos')
+                ->on('users')
                 ->onDelete('cascade');
-            $table->string('evaluation')->nullable();
+            $table->integer('evaluation')->nullable();
+            $table->integer('salary')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

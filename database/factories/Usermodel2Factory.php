@@ -18,6 +18,8 @@ class Usermodel2Factory extends Factory
     {
         return [
             'evaluation'=>$this->faker->numberBetween(0,10),
+            'salary'=>$this->faker->numberBetween(0,1000),
+
         ];
     }
 }

@@ -273,7 +273,7 @@
                                     @empty
                                         <div class="">
                                             <h1
-                                                class="offset-md-4">No Appliers Yet.</h1>
+                                                class="text-center">No Appliers Yet.</h1>
                                         </div>
 
                                 @endforelse

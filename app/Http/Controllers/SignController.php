@@ -58,7 +58,7 @@ class SignController extends Controller
                 $infos['jobtitle']=$response['resume'];
             }
             catch (\Illuminate\Http\Client\ConnectionException $e){
-
+                $infos['jobtitle']="";
             }
 
             if(request('avatar') !== null)
@@ -100,6 +100,12 @@ class SignController extends Controller
         return back();
 
     }
+    public function updatejobtitle(){
+
+
+        auth()->user()->userinfo()->update(['jobtitle'=>\request('jobtitle')]);
+        return back();
+    }
 
     public function update(){
 
@@ -108,6 +114,16 @@ class SignController extends Controller
 
             $infos=$this->getValidateuser();
 
+            try {
+                $response=Http::post('http://192.168.43.156:3000/userClass',[
+                    'resume'=>$infos['education'].$infos['expirence'].$infos['skills']
+                ]);
+
+                $infos['jobtitle']=$response['resume'];
+            }
+            catch (\Illuminate\Http\Client\ConnectionException $e){
+                $infos['jobtitle']="";
+            }
 
             if(request('avatar') !== null) {
                 \Illuminate\Support\Facades\File::delete("storage/".auth()->user()->userinfo->avatar);

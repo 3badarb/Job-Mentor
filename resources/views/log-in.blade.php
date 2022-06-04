@@ -32,18 +32,18 @@
 
     <body>
         <!--start page Loader -->
-        <div id="preloader">
-            <div id="status">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
+{{--        <div id="preloader">--}}
+{{--            <div id="status">--}}
+{{--                <ul>--}}
+{{--                    <li></li>--}}
+{{--                    <li></li>--}}
+{{--                    <li></li>--}}
+{{--                    <li></li>--}}
+{{--                    <li></li>--}}
+{{--                    <li></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <!--end page Loader -->
 
         <!-- Begin page -->
@@ -65,17 +65,17 @@
                                                 <div class="card-body p-4">
                                                     <a href="/index">
                                                         <img
-                                                            src="./assets/images/logo-light.png"
+                                                            src="{{asset("./assets/images/logo-light.png")}}"
                                                             alt=""
                                                             class="logo-light">
                                                         <img
-                                                            src="./assets/images/logo-dark.png"
+                                                            src="{{asset("./assets/images/logo-dark.png")}}"
                                                             alt=""
                                                             class="logo-dark">
                                                     </a>
                                                     <div class="mt-5">
                                                         <img
-                                                            src="./assets/images/auth/sign-in.png"
+                                                            src="{{asset("./assets/images/auth/sign-in.png")}}"
                                                             alt=""
                                                             class="img-fluid">
                                                     </div>
@@ -148,23 +148,23 @@
                                                                     placeholder="Enter&nbsp;your&nbsp;password"
                                                                     required>
                                                             </div>
-                                                            <div class="mb-4">
-                                                                <div
-                                                                    class="form-check"><input
-                                                                        class="form-check-input"
-                                                                        type="checkbox"
-                                                                        id="flexCheckDefault">
-                                                                    <a
-                                                                        href="reset-password.blade.php"
-                                                                        class="float-end
-                                                                        text-white">Forgot
-                                                                        Password?</a>
-                                                                    <label
-                                                                        class="form-check-label"
-                                                                        for="flexCheckDefault">Remember
-                                                                        me</label>
-                                                                </div>
-                                                            </div>
+{{--                                                            <div class="mb-4">--}}
+{{--                                                                <div--}}
+{{--                                                                    class="form-check"><input--}}
+{{--                                                                        class="form-check-input"--}}
+{{--                                                                        type="checkbox"--}}
+{{--                                                                        id="flexCheckDefault">--}}
+{{--                                                                    <a--}}
+{{--                                                                        href="reset-password.blade.php"--}}
+{{--                                                                        class="float-end--}}
+{{--                                                                        text-white">Forgot--}}
+{{--                                                                        Password?</a>--}}
+{{--                                                                    <label--}}
+{{--                                                                        class="form-check-label"--}}
+{{--                                                                        for="flexCheckDefault">Remember--}}
+{{--                                                                        me</label>--}}
+{{--                                                                </div>--}}
+{{--                                                            </div>--}}
                                                             <div
                                                                 class="text-center">
                                                                 <button
@@ -214,42 +214,6 @@
         <!-- END layout-wrapper -->
 
         <!-- Style switcher -->
-        <div id="style-switcher" onclick="toggleSwitcher()" style="left:
-            -165px;">
-            <div>
-                <h6>Select your color</h6>
-                <ul class="pattern list-unstyled mb-0">
-                    <li>
-                        <a class="color-list color1" href="javascript: void(0);"
-                            onclick="setColorGreen()"></a>
-                    </li>
-                    <li>
-                        <a class="color-list color2" href="javascript: void(0);"
-                            onclick="setColor('blue')"></a>
-                    </li>
-                    <li>
-                        <a class="color-list color3" href="javascript: void(0);"
-                            onclick="setColor('green')"></a>
-                    </li>
-                </ul>
-                <div class="mt-3">
-                    <h6>Light/dark Layout</h6>
-                    <div class="text-center mt-3">
-                        <!-- light-dark mode -->
-                        <a href="javascript: void(0);" id="mode" class="mode-btn
-                            text-white rounded-3">
-                            <i class="uil uil-brightness mode-dark mx-auto"></i>
-                            <i class="uil uil-moon mode-light"></i>
-                        </a>
-                        <!-- END light-dark Mode -->
-                    </div>
-                </div>
-            </div>
-            <div class="bottom d-none d-md-block">
-                <a href="javascript: void(0);" class="settings rounded-end"><i
-                        class="mdi mdi-cog mdi-spin"></i></a>
-            </div>
-        </div>
         <!-- end switcher-->
 
         <!--start back-to-top-->
@@ -259,11 +223,15 @@
         <!--end back-to-top-->
 
         <!-- JAVASCRIPT -->
-        <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script
+            src={{asset("./assets/libs/bootstrap/js/bootstrap.bundle.min.js")}}></script>
         <script
             src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
         <!-- Switcher Js -->
-        <script src="./assets/js/pages/switcher.init.js"></script>
+        <script src="{{asset("./assets/js/pages/switcher.init.js")}}"></script>
+        <script src="{{asset("./assets/js/pages/index.init.js")}}"></script>
+
+
 
     </body>
 

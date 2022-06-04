@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+    <!doctype html>
+    <html lang="en">
 
     <head>
 
@@ -176,195 +176,195 @@
                     <!-- END SHAPE -->
 
                     <!-- START CATEGORY -->
-{{--                    <section class="section">--}}
-{{--                        <div class="container">--}}
-{{--                            <div class="row justify-content-center">--}}
-{{--                                <div class="col-lg-6">--}}
-{{--                                    <div class="section-title text-center">--}}
-{{--                                        <h3 class="title">Browser Jobs--}}
-{{--                                            Categories </h3>--}}
-{{--                                        <p class="text-muted">Post a job to tell--}}
-{{--                                            us about your project. We'll quickly--}}
-{{--                                            match you with the right--}}
-{{--                                            freelancers.</p>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                            </div>--}}
-{{--                            <!--end row-->--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-layers-alt"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">IT & Software</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">2024 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-airplay"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Technology</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">1250 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-bag"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Government</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">802 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-user-md"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Accounting /--}}
-{{--                                                    Finance</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">577 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-hospital"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Construction /--}}
-{{--                                                    Facilities</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">285 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-telegram-alt"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Tele-communications</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">495 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-scenery"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Design &--}}
-{{--                                                    Multimedia</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">1045 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
-{{--                                    <div class="popu-category-box rounded--}}
-{{--                                        text-center">--}}
-{{--                                        <div class="popu-category-icon--}}
-{{--                                            icons-md">--}}
-{{--                                            <i class="uim uim-android-alt"></i>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="popu-category-content mt-4">--}}
-{{--                                            <a href="job-list.blade.php"--}}
-{{--                                                class="text-dark--}}
-{{--                                                stretched-link">--}}
-{{--                                                <h5 class="fs-18">Human Resource</h5>--}}
-{{--                                            </a>--}}
-{{--                                            <p class="text-muted mb-0">1516 Jobs</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <!--end popu-category-box-->--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                            </div>--}}
-{{--                            <!--end row-->--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col-lg-12">--}}
-{{--                                    <div class="mt-5 text-center">--}}
-{{--                                        <a href="job-categories.blade.php" class="btn--}}
-{{--                                            btn-primary btn-hover">Browse All--}}
-{{--                                            Categories <i class="uil--}}
-{{--                                                uil-arrow-right ms-1"></i></a>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <!--end col-->--}}
-{{--                            </div>--}}
-{{--                            <!--end row-->--}}
-{{--                        </div>--}}
-{{--                        <!--end container-->--}}
-{{--                    </section>--}}
+    {{--                    <section class="section">--}}
+    {{--                        <div class="container">--}}
+    {{--                            <div class="row justify-content-center">--}}
+    {{--                                <div class="col-lg-6">--}}
+    {{--                                    <div class="section-title text-center">--}}
+    {{--                                        <h3 class="title">Browser Jobs--}}
+    {{--                                            Categories </h3>--}}
+    {{--                                        <p class="text-muted">Post a job to tell--}}
+    {{--                                            us about your project. We'll quickly--}}
+    {{--                                            match you with the right--}}
+    {{--                                            freelancers.</p>--}}
+    {{--                                    </div>--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                            </div>--}}
+    {{--                            <!--end row-->--}}
+    {{--                            <div class="row">--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-layers-alt"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">IT & Software</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">2024 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-airplay"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Technology</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">1250 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-bag"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Government</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">802 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-user-md"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Accounting /--}}
+    {{--                                                    Finance</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">577 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-hospital"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Construction /--}}
+    {{--                                                    Facilities</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">285 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-telegram-alt"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Tele-communications</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">495 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-scenery"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Design &--}}
+    {{--                                                    Multimedia</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">1045 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                                <div class="col-lg-3 col-md-6 mt-4 pt-2">--}}
+    {{--                                    <div class="popu-category-box rounded--}}
+    {{--                                        text-center">--}}
+    {{--                                        <div class="popu-category-icon--}}
+    {{--                                            icons-md">--}}
+    {{--                                            <i class="uim uim-android-alt"></i>--}}
+    {{--                                        </div>--}}
+    {{--                                        <div class="popu-category-content mt-4">--}}
+    {{--                                            <a href="job-list.blade.php"--}}
+    {{--                                                class="text-dark--}}
+    {{--                                                stretched-link">--}}
+    {{--                                                <h5 class="fs-18">Human Resource</h5>--}}
+    {{--                                            </a>--}}
+    {{--                                            <p class="text-muted mb-0">1516 Jobs</p>--}}
+    {{--                                        </div>--}}
+    {{--                                    </div>--}}
+    {{--                                    <!--end popu-category-box-->--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                            </div>--}}
+    {{--                            <!--end row-->--}}
+    {{--                            <div class="row">--}}
+    {{--                                <div class="col-lg-12">--}}
+    {{--                                    <div class="mt-5 text-center">--}}
+    {{--                                        <a href="job-categories.blade.php" class="btn--}}
+    {{--                                            btn-primary btn-hover">Browse All--}}
+    {{--                                            Categories <i class="uil--}}
+    {{--                                                uil-arrow-right ms-1"></i></a>--}}
+    {{--                                    </div>--}}
+    {{--                                </div>--}}
+    {{--                                <!--end col-->--}}
+    {{--                            </div>--}}
+    {{--                            <!--end row-->--}}
+    {{--                        </div>--}}
+    {{--                        <!--end container-->--}}
+    {{--                    </section>--}}
                     <!-- END CATEGORY -->
 
                     <!-- START JOB-LIST -->
@@ -374,7 +374,7 @@
                                 <div class="col-lg-6">
                                     <div class="section-title text-center mb-4
                                         pb-2">
-                                        <h4 class="title">New & Random Jobs</h4>
+                                        <h4 class="title">New  Jobs</h4>
                                         <p class="text-muted mb-1">Post a job to
                                             tell us about your project. We'll
                                             quickly match you with the right
@@ -399,53 +399,54 @@
                                                 aria-controls="recent-jobs"
                                                 aria-selected="true">Recent Jobs</button>
                                         </li>
-                                        <li class="nav-item"
-                                            role="presentation">
-                                            <button class="nav-link"
-                                                id="featured-jobs-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#featured-jobs"
-                                                type="button" role="tab"
-                                                aria-controls="featured-jobs"
-                                                aria-selected="false">Featured
-                                                Jobs</button>
-                                        </li>
-                                        <li class="nav-item"
-                                            role="presentation">
-                                            <button class="nav-link"
-                                                id="freelancer-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#freelancer"
-                                                type="button" role="tab"
-                                                aria-controls="freelancer"
-                                                aria-selected="false">Freelancer</button>
-                                        </li>
-                                        <li class="nav-item"
-                                            role="presentation">
-                                            <button class="nav-link"
-                                                id="part-time-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#part-time"
-                                                type="button" role="tab"
-                                                aria-controls="part-time"
-                                                aria-selected="false">Part Time</button>
-                                        </li>
-                                        <li class="nav-item"
-                                            role="presentation">
-                                            <button class="nav-link"
-                                                id="full-time-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#full-time"
-                                                type="button" role="tab"
-                                                aria-controls="full-time"
-                                                aria-selected="false">Full Time</button>
-                                        </li>
+    {{--                                        <li class="nav-item"--}}
+    {{--                                            role="presentation">--}}
+    {{--                                            <button class="nav-link"--}}
+    {{--                                                id="featured-jobs-tab"--}}
+    {{--                                                data-bs-toggle="pill"--}}
+    {{--                                                data-bs-target="#featured-jobs"--}}
+    {{--                                                type="button" role="tab"--}}
+    {{--                                                aria-controls="featured-jobs"--}}
+    {{--                                                aria-selected="false">Featured--}}
+    {{--                                                Jobs</button>--}}
+    {{--                                        </li>--}}
+    {{--                                        <li class="nav-item"--}}
+    {{--                                            role="presentation">--}}
+    {{--                                            <button class="nav-link"--}}
+    {{--                                                id="freelancer-tab"--}}
+    {{--                                                data-bs-toggle="pill"--}}
+    {{--                                                data-bs-target="#freelancer"--}}
+    {{--                                                type="button" role="tab"--}}
+    {{--                                                aria-controls="freelancer"--}}
+    {{--                                                aria-selected="false">Freelancer</button>--}}
+    {{--                                        </li>--}}
+    {{--                                        <li class="nav-item"--}}
+    {{--                                            role="presentation">--}}
+    {{--                                            <button class="nav-link"--}}
+    {{--                                                id="part-time-tab"--}}
+    {{--                                                data-bs-toggle="pill"--}}
+    {{--                                                data-bs-target="#part-time"--}}
+    {{--                                                type="button" role="tab"--}}
+    {{--                                                aria-controls="part-time"--}}
+    {{--                                                aria-selected="false">Part Time</button>--}}
+    {{--                                        </li>--}}
+    {{--                                        <li class="nav-item"--}}
+    {{--                                            role="presentation">--}}
+    {{--                                            <button class="nav-link"--}}
+    {{--                                                id="full-time-tab"--}}
+    {{--                                                data-bs-toggle="pill"--}}
+    {{--                                                data-bs-target="#full-time"--}}
+    {{--                                                type="button" role="tab"--}}
+    {{--                                                aria-controls="full-time"--}}
+    {{--                                                aria-selected="false">Full Time</button>--}}
+    {{--                                        </li>--}}
                                     </ul>
                                 </div>
                                 <!--end col-->
                             </div>
                             <!--end row-->
                             <div class="row">
+                                @forelse($jobs as $job)
                                 <div class="col-lg-12">
                                     <div class="tab-content"
                                         id="pills-tabContent">
@@ -467,13 +468,13 @@
                                                         <div class="col-md-2">
                                                             <div
                                                                 class="text-center
-                                                                mb-4 mb-md-0">
+                                                                mb-4 mb-md-0 col-lg-6">
                                                                 <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-01.png"
+                                                                    href="/company-details/{{$job->myuser->id}}"><img
+                                                                        src="{{asset("storage/".$job->myuser->companyinfo->avatar)}}"
                                                                         alt=""
                                                                         class="img-fluid
-                                                                        rounded-3"></a>
+                                                            rounded-3"></a>
                                                             </div>
                                                         </div>
                                                         <!--end col-->
@@ -482,15 +483,13 @@
                                                                 mb-md-0">
                                                                 <h5 class="fs-18
                                                                     mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Web
-                                                                        Developer</a>
+                                                                        href="/job-details/{{$job->id}}"
+                                                                        class="text-dark">{{$job->jobtitle}}</a>
                                                                 </h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Web
-                                                                    Technology
-                                                                    pvt.Ltd</p>
+                                                                    fs-14
+                                                                    mb-0">{{$job->myuser->name}}</p>
                                                             </div>
                                                         </div>
                                                         <!--end col-->
@@ -499,17 +498,11 @@
                                                                 mb-2">
                                                                 <div
                                                                     class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
+                                                                    <i class="uil uil-map-marker"></i>
                                                                 </div>
                                                                 <p
                                                                     class="text-muted
-                                                                    mb-0">Oakridge
-                                                                    Lane
-                                                                    ssRichardson</p>
+                                                                    mb-0">{{$job->myuser->companyinfo->location}}</p>
                                                             </div>
                                                         </div>
                                                         <!--end col-->
@@ -518,55 +511,55 @@
                                                                 <p
                                                                     class="text-muted
                                                                     mb-2"><span
-                                                                        class="text-primary">$</span>1000-1200/m</p>
+                                                                        class="text-primary">$</span>{{$job->salary}}</p>
                                                             </div>
                                                         </div>
                                                         <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-info
-                                                                    fs-13 mt-1">Private</span>
-                                                            </div>
-                                                        </div>
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-info--}}
+    {{--                                                                    fs-13 mt-1">Private</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
                                                         <!--end col-->
                                                     </div>
                                                     <!--end row-->
                                                 </div>
                                                 <div class="p-3 bg-light">
                                                     <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    1 - 2 years</p>
-                                                            </div>
-                                                        </div>
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    1 - 2 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
                                                         <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
                                                         <!--end col-->
                                                         <div class="col-lg-2
                                                             col-md-3">
@@ -574,10 +567,10 @@
                                                                 class="text-start
                                                                 text-md-end">
                                                                 <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
+                                                                    href="/job-details/{{$job->id}}"
+
+                                                                    class="primary-link">Explore
+                                                                    <i class="uil uil-angle-double-right"></i></a>
                                                             </div>
                                                         </div>
                                                         <!--end col-->
@@ -587,2414 +580,2050 @@
                                             </div>
                                             <!--end job-box-->
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-02.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Business
-                                                                        Associate</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Pixel
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Dodge
-                                                                    City,
-                                                                    Louisiana</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>800-1800/m
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-info
-                                                                    fs-13 mt-1">Private</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-warning
-                                                                    fs-13 mt-1">Urgent</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    0 - 1 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
                                             <!--end job-box-->
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-03.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Digital
-                                                                        Marketing
-                                                                        Manager</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Jobcy
-                                                                    Technology
-                                                                    Pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Phoenix,
-                                                                    Arizona</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-info
-                                                                    fs-13 mt-1">Private</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    4+ years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
                                             <!--end job-box-->
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-lg-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-04.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Product
-                                                                        Director</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Creative
-                                                                    Agency</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Escondido,
-                                                                    California</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt">Full
-                                                                    Time</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-warning
-                                                                    fs-13 mt-1">Urgent</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    2 - 3 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i
-                                                                        class="uil
-                                                                        uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
                                             <!--end job-box-->
 
-                                            <div class="text-center mt-4 pt-2">
-                                                <a href="job-list.blade.php"
-                                                    class="btn btn-primary">View
-                                                    More <i class="uil
-                                                        uil-arrow-right"></i></a>
-                                            </div>
+
 
                                         </div>
                                         <!--end recent-jobs-tab-->
 
-                                        <div class="tab-pane fade"
-                                            id="featured-jobs" role="tabpanel"
-                                            aria-labelledby="featured-jobs-tab">
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-01.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Web
-                                                                        Developer</a>
-                                                                </h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Web
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Oakridge
-                                                                    Lane
-                                                                    Richardson</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1000-1200/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-info
-                                                                    fs-13 mt">Private</span>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-warning
-                                                                    fs-13 mt-1">Urgent</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    1 - 2 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                        <div class="tab-pane fade"--}}
+    {{--                                            id="featured-jobs" role="tabpanel"--}}
+    {{--                                            aria-labelledby="featured-jobs-tab">--}}
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-01.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Web--}}
+    {{--                                                                        Developer</a>--}}
+    {{--                                                                </h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Web--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Oakridge--}}
+    {{--                                                                    Lane--}}
+    {{--                                                                    Richardson</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1000-1200/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-info--}}
+    {{--                                                                    fs-13 mt">Private</span>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-warning--}}
+    {{--                                                                    fs-13 mt-1">Urgent</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    1 - 2 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-02.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Business
-                                                                        Associate</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Pixel
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Dodge
-                                                                    City,
-                                                                    Louisiana</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>800-1800/m
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    0 - 1 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-02.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Business--}}
+    {{--                                                                        Associate</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Pixel--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Dodge--}}
+    {{--                                                                    City,--}}
+    {{--                                                                    Louisiana</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>800-1800/m--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-danger--}}
+    {{--                                                                    fs-13 mt-1">Part--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    0 - 1 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-03.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Digital
-                                                                        Marketing
-                                                                        Manager</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Jobcy
-                                                                    Technology
-                                                                    Pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Phoenix,
-                                                                    Arizona</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    4+ years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-03.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Digital--}}
+    {{--                                                                        Marketing--}}
+    {{--                                                                        Manager</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    Pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Phoenix,--}}
+    {{--                                                                    Arizona</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-purple--}}
+    {{--                                                                    fs-13 mt-1">Freelancer</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    4+ years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-lg-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-04.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Product
-                                                                        Director</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Creative
-                                                                    Agency</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Escondido,
-                                                                    California</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    2 - 3 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-lg-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-04.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Product--}}
+    {{--                                                                        Director</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Creative--}}
+    {{--                                                                    Agency</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Escondido,--}}
+    {{--                                                                    California</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    2 - 3 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="text-center mt-4 pt-2">
-                                                <a href="job-list.blade.php"
-                                                    class="btn btn-primary">View
-                                                    More <i class="uil
-                                                        uil-arrow-right"></i></a>
-                                            </div>
-                                        </div>
+    {{--                                            <div class="text-center mt-4 pt-2">--}}
+    {{--                                                <a href="job-list.blade.php"--}}
+    {{--                                                    class="btn btn-primary">View--}}
+    {{--                                                    More <i class="uil--}}
+    {{--                                                        uil-arrow-right"></i></a>--}}
+    {{--                                            </div>--}}
+    {{--                                        </div>--}}
                                         <!--end featured-jobs-tab-->
 
-                                        <div class="tab-pane fade"
-                                            id="freelancer" role="tabpanel"
-                                            aria-labelledby="freelancer-tab">
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-01.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Web
-                                                                        Developer</a>
-                                                                </h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Web
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Oakridge
-                                                                    Lane
-                                                                    Richardson</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1000-1200/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    1 - 2 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                        <div class="tab-pane fade"--}}
+    {{--                                            id="freelancer" role="tabpanel"--}}
+    {{--                                            aria-labelledby="freelancer-tab">--}}
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-01.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Web--}}
+    {{--                                                                        Developer</a>--}}
+    {{--                                                                </h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Web--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Oakridge--}}
+    {{--                                                                    Lane--}}
+    {{--                                                                    Richardson</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1000-1200/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-purple--}}
+    {{--                                                                    fs-13 mt-1">Freelancer</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    1 - 2 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-02.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Business
-                                                                        Associate</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Pixel
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Dodge
-                                                                    City,
-                                                                    Louisiana</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>800-1800/m
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    0 - 1 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-02.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Business--}}
+    {{--                                                                        Associate</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Pixel--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Dodge--}}
+    {{--                                                                    City,--}}
+    {{--                                                                    Louisiana</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>800-1800/m--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-purple--}}
+    {{--                                                                    fs-13 mt-1">Freelancer</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    0 - 1 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-03.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Digital
-                                                                        Marketing
-                                                                        Manager</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Jobcy
-                                                                    Technology
-                                                                    Pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Phoenix,
-                                                                    Arizona</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    4+ years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-03.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Digital--}}
+    {{--                                                                        Marketing--}}
+    {{--                                                                        Manager</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    Pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Phoenix,--}}
+    {{--                                                                    Arizona</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-purple--}}
+    {{--                                                                    fs-13 mt-1">Freelancer</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    4+ years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-lg-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-04.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Product
-                                                                        Director</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Creative
-                                                                    Agency</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Escondido,
-                                                                    California</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-purple
-                                                                    fs-13 mt-1">Freelancer</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    2 - 3 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-lg-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-04.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Product--}}
+    {{--                                                                        Director</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Creative--}}
+    {{--                                                                    Agency</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Escondido,--}}
+    {{--                                                                    California</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-purple--}}
+    {{--                                                                    fs-13 mt-1">Freelancer</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    2 - 3 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="text-center mt-4 pt-2">
-                                                <a href="job-list.blade.php"
-                                                    class="btn btn-primary">View
-                                                    More <i class="uil
-                                                        uil-arrow-right"></i></a>
-                                            </div>
-                                        </div>
+    {{--                                            <div class="text-center mt-4 pt-2">--}}
+    {{--                                                <a href="job-list.blade.php"--}}
+    {{--                                                    class="btn btn-primary">View--}}
+    {{--                                                    More <i class="uil--}}
+    {{--                                                        uil-arrow-right"></i></a>--}}
+    {{--                                            </div>--}}
+    {{--                                        </div>--}}
                                         <!--end freelancer-tab-->
 
-                                        <div class="tab-pane fade"
-                                            id="part-time" role="tabpanel"
-                                            aria-labelledby="part-time-tab">
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-01.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Web
-                                                                        Developer</a>
-                                                                </h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Web
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Oakridge
-                                                                    Lane
-                                                                    Richardson</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1000-1200/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    1 - 2 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                        <div class="tab-pane fade"--}}
+    {{--                                            id="part-time" role="tabpanel"--}}
+    {{--                                            aria-labelledby="part-time-tab">--}}
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-01.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Web--}}
+    {{--                                                                        Developer</a>--}}
+    {{--                                                                </h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Web--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Oakridge--}}
+    {{--                                                                    Lane--}}
+    {{--                                                                    Richardson</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1000-1200/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-danger--}}
+    {{--                                                                    fs-13 mt-1">Part--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    1 - 2 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-02.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Business
-                                                                        Associate</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Pixel
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Dodge
-                                                                    City,
-                                                                    Louisiana</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>800-1800/m
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    0 - 1 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-02.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Business--}}
+    {{--                                                                        Associate</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Pixel--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Dodge--}}
+    {{--                                                                    City,--}}
+    {{--                                                                    Louisiana</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>800-1800/m--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-danger--}}
+    {{--                                                                    fs-13 mt-1">Part--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    0 - 1 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-03.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Digital
-                                                                        Marketing
-                                                                        Manager</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Jobcy
-                                                                    Technology
-                                                                    Pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">
-                                                                    Phoenix,
-                                                                    Arizona</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    4+ years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-03.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Digital--}}
+    {{--                                                                        Marketing--}}
+    {{--                                                                        Manager</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    Pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">--}}
+    {{--                                                                    Phoenix,--}}
+    {{--                                                                    Arizona</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-danger--}}
+    {{--                                                                    fs-13 mt-1">Part--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    4+ years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-lg-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-04.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Product
-                                                                        Director</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Creative
-                                                                    Agency</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Escondido,
-                                                                    California</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-danger
-                                                                    fs-13 mt-1">Part
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    2 - 3 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now<i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-lg-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-04.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Product--}}
+    {{--                                                                        Director</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Creative--}}
+    {{--                                                                    Agency</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Escondido,--}}
+    {{--                                                                    California</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-danger--}}
+    {{--                                                                    fs-13 mt-1">Part--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    2 - 3 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now<i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="text-center mt-4 pt-2">
-                                                <a href="job-list.blade.php"
-                                                    class="btn btn-primary">View
-                                                    More <i class="uil
-                                                        uil-arrow-right"></i></a>
-                                            </div>
-                                        </div>
+    {{--                                            <div class="text-center mt-4 pt-2">--}}
+    {{--                                                <a href="job-list.blade.php"--}}
+    {{--                                                    class="btn btn-primary">View--}}
+    {{--                                                    More <i class="uil--}}
+    {{--                                                        uil-arrow-right"></i></a>--}}
+    {{--                                            </div>--}}
+    {{--                                        </div>--}}
                                         <!--end part-time-tab-->
 
-                                        <div class="tab-pane fade"
-                                            id="full-time" role="tabpanel"
-                                            aria-labelledby="full-time-tab">
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-01.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Web
-                                                                        Developer</a>
-                                                                </h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Web
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Oakridge
-                                                                    Lane
-                                                                    Richardson</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1000-1200/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    1 - 2 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                        <div class="tab-pane fade"--}}
+    {{--                                            id="full-time" role="tabpanel"--}}
+    {{--                                            aria-labelledby="full-time-tab">--}}
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-01.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Web--}}
+    {{--                                                                        Developer</a>--}}
+    {{--                                                                </h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Web--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Oakridge--}}
+    {{--                                                                    Lane--}}
+    {{--                                                                    Richardson</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1000-1200/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    1 - 2 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box bookmark-post
-                                                card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-02.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Business
-                                                                        Associate</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Pixel
-                                                                    Technology
-                                                                    pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Dodge
-                                                                    City,
-                                                                    Louisiana</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>800-1800/m
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    0 - 1 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-6
-                                                            col-md-5">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Notes
-                                                                        :</span>
-                                                                    languages
-                                                                    only differ
-                                                                    in their
-                                                                    grammar.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box bookmark-post--}}
+    {{--                                                card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-02.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Business--}}
+    {{--                                                                        Associate</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Pixel--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Dodge--}}
+    {{--                                                                    City,--}}
+    {{--                                                                    Louisiana</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>800-1800/m--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    0 - 1 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-6--}}
+    {{--                                                            col-md-5">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Notes--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    languages--}}
+    {{--                                                                    only differ--}}
+    {{--                                                                    in their--}}
+    {{--                                                                    grammar.--}}
+    {{--                                                                </p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-md-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-03.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Digital
-                                                                        Marketing
-                                                                        Manager</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Jobcy
-                                                                    Technology
-                                                                    Pvt.Ltd</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Phoenix,
-                                                                    Arizona</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    4+ years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-md-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-03.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Digital--}}
+    {{--                                                                        Marketing--}}
+    {{--                                                                        Manager</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    Technology--}}
+    {{--                                                                    Pvt.Ltd</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Phoenix,--}}
+    {{--                                                                    Arizona</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    4+ years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="job-box card mt-4">
-                                                <div class="bookmark-label
-                                                    text-center">
-                                                    <a href="javascript:void(0)"
-                                                        class="text-white
-                                                        align-middle"><i
-                                                            class="mdi
-                                                            mdi-star"></i></a>
-                                                </div>
-                                                <div class="p-4">
-                                                    <div class="row
-                                                        align-items-center">
-                                                        <div class="col-md-2">
-                                                            <div
-                                                                class="text-center
-                                                                mb-4 mb-lg-0">
-                                                                <a
-                                                                    href="company-details.blade.php"><img
-                                                                        src="./assets/images/featured-job/img-04.png"
-                                                                        alt=""
-                                                                        class="img-fluid
-                                                                        rounded-3"></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="mb-2
-                                                                mb-md-0">
-                                                                <h5 class="fs-18
-                                                                    mb-1"><a
-                                                                        href="job-details.blade.php"
-                                                                        class="text-dark">Product
-                                                                        Director</a></h5>
-                                                                <p
-                                                                    class="text-muted
-                                                                    fs-14 mb-0">Creative
-                                                                    Agency</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-3">
-                                                            <div class="d-flex
-                                                                mb-2">
-                                                                <div
-                                                                    class="flex-shrink-0">
-                                                                    <i
-                                                                        class="mdi
-                                                                        mdi-map-marker
-                                                                        text-primary
-                                                                        me-1"></i>
-                                                                </div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0">Escondido,
-                                                                    California</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-2"><span
-                                                                        class="text-primary">$</span>1500-2400/m</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-md-2">
-                                                            <div>
-                                                                <span
-                                                                    class="badge
-                                                                    bg-soft-success
-                                                                    fs-13 mt-1">Full
-                                                                    Time</span>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                                <div class="p-3 bg-light">
-                                                    <div class="row
-                                                        justify-content-between">
-                                                        <div class="col-md-4">
-                                                            <div>
-                                                                <p
-                                                                    class="text-muted
-                                                                    mb-0"><span
-                                                                        class="text-dark">Experience
-                                                                        :</span>
-                                                                    2 - 3 years</p>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                        <div class="col-lg-2
-                                                            col-md-3">
-                                                            <div
-                                                                class="text-start
-                                                                text-md-end">
-                                                                <a
-                                                                    href="#applyNow"
-                                                                    data-bs-toggle="modal"
-                                                                    class="primary-link">Apply
-                                                                    Now <i class="uil uil-angle-double-right"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <!--end col-->
-                                                    </div>
-                                                    <!--end row-->
-                                                </div>
-                                            </div>
-                                            <!--end job-box-->
+    {{--                                            <div class="job-box card mt-4">--}}
+    {{--                                                <div class="bookmark-label--}}
+    {{--                                                    text-center">--}}
+    {{--                                                    <a href="javascript:void(0)"--}}
+    {{--                                                        class="text-white--}}
+    {{--                                                        align-middle"><i--}}
+    {{--                                                            class="mdi--}}
+    {{--                                                            mdi-star"></i></a>--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-4">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        align-items-center">--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-center--}}
+    {{--                                                                mb-4 mb-lg-0">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="company-details.blade.php"><img--}}
+    {{--                                                                        src="./assets/images/featured-job/img-04.png"--}}
+    {{--                                                                        alt=""--}}
+    {{--                                                                        class="img-fluid--}}
+    {{--                                                                        rounded-3"></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="mb-2--}}
+    {{--                                                                mb-md-0">--}}
+    {{--                                                                <h5 class="fs-18--}}
+    {{--                                                                    mb-1"><a--}}
+    {{--                                                                        href="job-details.blade.php"--}}
+    {{--                                                                        class="text-dark">Product--}}
+    {{--                                                                        Director</a></h5>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    fs-14 mb-0">Creative--}}
+    {{--                                                                    Agency</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-3">--}}
+    {{--                                                            <div class="d-flex--}}
+    {{--                                                                mb-2">--}}
+    {{--                                                                <div--}}
+    {{--                                                                    class="flex-shrink-0">--}}
+    {{--                                                                    <i--}}
+    {{--                                                                        class="mdi--}}
+    {{--                                                                        mdi-map-marker--}}
+    {{--                                                                        text-primary--}}
+    {{--                                                                        me-1"></i>--}}
+    {{--                                                                </div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0">Escondido,--}}
+    {{--                                                                    California</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-2"><span--}}
+    {{--                                                                        class="text-primary">$</span>1500-2400/m</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-md-2">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <span--}}
+    {{--                                                                    class="badge--}}
+    {{--                                                                    bg-soft-success--}}
+    {{--                                                                    fs-13 mt-1">Full--}}
+    {{--                                                                    Time</span>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                                <div class="p-3 bg-light">--}}
+    {{--                                                    <div class="row--}}
+    {{--                                                        justify-content-between">--}}
+    {{--                                                        <div class="col-md-4">--}}
+    {{--                                                            <div>--}}
+    {{--                                                                <p--}}
+    {{--                                                                    class="text-muted--}}
+    {{--                                                                    mb-0"><span--}}
+    {{--                                                                        class="text-dark">Experience--}}
+    {{--                                                                        :</span>--}}
+    {{--                                                                    2 - 3 years</p>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                        <div class="col-lg-2--}}
+    {{--                                                            col-md-3">--}}
+    {{--                                                            <div--}}
+    {{--                                                                class="text-start--}}
+    {{--                                                                text-md-end">--}}
+    {{--                                                                <a--}}
+    {{--                                                                    href="#applyNow"--}}
+    {{--                                                                    data-bs-toggle="modal"--}}
+    {{--                                                                    class="primary-link">Apply--}}
+    {{--                                                                    Now <i class="uil uil-angle-double-right"></i></a>--}}
+    {{--                                                            </div>--}}
+    {{--                                                        </div>--}}
+    {{--                                                        <!--end col-->--}}
+    {{--                                                    </div>--}}
+    {{--                                                    <!--end row-->--}}
+    {{--                                                </div>--}}
+    {{--                                            </div>--}}
+    {{--                                            <!--end job-box-->--}}
 
-                                            <div class="text-center mt-4 pt-2">
-                                                <a href="job-list.blade.php"
-                                                    class="btn btn-primary">View
-                                                    More <i class="uil
-                                                        uil-arrow-right"></i></a>
-                                            </div>
-                                        </div>
+    {{--                                            <div class="text-center mt-4 pt-2">--}}
+    {{--                                                <a href="job-list.blade.php"--}}
+    {{--                                                    class="btn btn-primary">View--}}
+    {{--                                                    More <i class="uil--}}
+    {{--                                                        uil-arrow-right"></i></a>--}}
+    {{--                                            </div>--}}
+    {{--                                        </div>--}}
                                         <!--end full-time-tab-->
                                     </div>
                                 </div>
+                                @empty
+                                    <h1
+                                        class="offset-md-4 mb-0 ">No Jobs Yet.</h1>
+
+                                 @endforelse
+                                    @empty(!$jobs)
+                                    <div class="text-center mt-4 pt-2">
+                                        <a href="/job-list"
+                                           class="btn btn-primary">View
+                                            More <i class="uil
+                                                        uil-arrow-right"></i></a>
+                                    </div>
+                                @endempty
                                 <!--end col-->
                             </div>
                             <!--end row-->
@@ -3013,7 +2642,7 @@
                                         <p class="text-muted">Post a job to tell
                                             us about your project. We'll quickly
                                             match you with the right
-                                            freelancers.</p>
+                                            employee.</p>
                                         <div class="process-menu nav flex-column
                                             nav-pills" id="v-pills-tab"
                                             role="tablist"
@@ -3107,14 +2736,14 @@
                                             id="v-pills-home" role="tabpanel"
                                             aria-labelledby="v-pills-home-tab">
                                             <img
-                                                src="./assets/images/process-01.png"
+                                                src="{{asset("./assets/images/process-01.png")}}"
                                                 alt="" class="img-fluid">
                                         </div>
                                         <div class="tab-pane fade"
                                             id="v-pills-profile" role="tabpanel"
                                             aria-labelledby="v-pills-profile-tab">
                                             <img
-                                                src="./assets/images/process-02.png"
+                                                src="{{asset("./assets/images/process-02.png")}}"
                                                 alt="" class="img-fluid">
                                         </div>
                                         <div class="tab-pane fade"
@@ -3122,7 +2751,7 @@
                                             role="tabpanel"
                                             aria-labelledby="v-pills-messages-tab">
                                             <img
-                                                src="./assets/images/process-03.png"
+                                                src="{{asset("./assets/images/process-03.png")}}"
                                                 alt="" class="img-fluid">
                                         </div>
                                     </div>
@@ -3148,13 +2777,16 @@
                                             us about your project. We'll quickly
                                             match you with the right
                                             freelancers.</p>
+                                        @guest()
+
                                         <div class="mt-4 pt-2">
-                                            <a href="sign-up.blade.php"
+                                            <a href="/sign-up"
                                                 class="btn btn-primary
                                                 btn-hover">Started Now <i
                                                     class="uil uil-rocket
                                                     align-middle ms-1"></i></a>
                                         </div>
+                                        @endguest
                                     </div>
                                 </div>
                                 <!--end col-->
@@ -3178,55 +2810,6 @@
                     <!-- END CLIENT -->
 
                     <!-- START APPLY MODAL -->
-                    <div class="modal fade" id="applyNow" tabindex="-1"
-                        aria-labelledby="applyNow" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-body p-5">
-                                    <div class="text-center mb-4">
-                                        <h5 class="modal-title"
-                                            id="staticBackdropLabel">Apply For
-                                            This Job</h5>
-                                    </div>
-                                    <div class="position-absolute end-0 top-0
-                                        p-3">
-                                        <button type="button" class="btn-close"
-                                            data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="nameControlInput"
-                                            class="form-label">Name</label>
-                                        <input type="text" class="form-control"
-                                            id="nameControlInput"
-                                            placeholder="Enter your name">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="emailControlInput2"
-                                            class="form-label">Email Address</label>
-                                        <input type="email" class="form-control"
-                                            id="emailControlInput2"
-                                            placeholder="Enter your email">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="messageControlTextarea"
-                                            class="form-label">Message</label>
-                                        <textarea class="form-control"
-                                            id="messageControlTextarea" rows="4"
-                                            placeholder="Enter your message"></textarea>
-                                    </div>
-                                    <div class="mb-4">
-                                        <label class="form-label"
-                                            for="inputGroupFile01">Resume Upload</label>
-                                        <input type="file" class="form-control"
-                                            id="inputGroupFile01">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary
-                                        w-100">Send Application</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <!-- END APPLY MODAL -->
 
                 </div>
@@ -3236,9 +2819,9 @@
 
                 <!-- END SUBSCRIBE -->
 
-                <!-- START FOOTER -->
+                <!--START FOOTER -->
                 @include('downbar')
-                <!-- END FOOTER -->
+                <!--END FOOTER -->
 
                 <!-- Style switcher -->
                 <div id="style-switcher"
@@ -3312,6 +2895,7 @@
         <!-- App Js -->
         <script src="{{asset("./assets/js/app.js")}}"></script>
 
+
     </body>
 
-</html>
+    </html>
