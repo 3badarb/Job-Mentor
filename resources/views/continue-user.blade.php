@@ -157,7 +157,7 @@
                                                                 <div class="mb-4
                                                                     profile-user">
                                                                     <img
-                                                                        src="./assets/images/user/Untitled-1.jpg"
+                                                                        src="{{asset("./assets/images/user/Untitled-1.jpg")}}"
                                                                         class="rounded-circle
                                                                         img-thumbnail
                                                                         profile-img"
@@ -414,7 +414,7 @@
 
                                                         <div class="mt-4
                                                             text-end">
-                                                            <button class="btn btn-primary" type="submit">Save</button>
+                                                            <button class="btn btn-primary" type="submit">Next</button>
 
                                                         </div>
                                                 </div>

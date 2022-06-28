@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top sticky " id="navbar">
     <div class="container-fluid custom-container" >
         <a class="navbar-brand text-dark fw-bold me-auto"
            href="/index">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse mt-0 pt-0" id="navbarCollapse">
             <ul class="navbar-nav mx-auto navbar-center">
                 <li class="nav-item dropdown dropdown-hover">
-                    <a class="nav-link" href="/index"
+                    <a class="nav-link" href="/index#home"
                        id="homedrop" role="button"
                     >
                         Home
@@ -103,12 +103,12 @@
                        id="userdropdown" data-bs-toggle="dropdown">
                         @if(auth()->user()->tag==='U')
                             <img src="{{asset("storage/".auth()->user()->userinfo->avatar)}}"
-                                 width="40" height="40" class="rounded-circle
+                                 width="35" height="35" class="rounded-circle
                             me-1"
                             alt="">
                         @elseif(auth()->user()->tag==='C')
                             <img src="{{asset("storage/".auth()->user()->companyinfo->avatar)}}"
-                                 width="40" height="40" class="rounded-circle
+                                 width="35" height="35" class="rounded-circle
                             me-1" alt="">
                         @endif
 

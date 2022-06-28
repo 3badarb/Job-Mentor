@@ -145,7 +145,7 @@
                                                     mb-4">
 
                                                 </div>
-
+                                                <p class="text-muted">{{$user->about_me}}</p>
                                                 <div class="mt-3">
                                                     <a
                                                         href="/candidate-details/{{$user->user->id}}"
@@ -200,6 +200,7 @@
 
                                                     <!--end row-->
                                                 </div>
+                                                <p class="text-muted">{{$user->about_me}}</p>
                                                 <div class="mt-3">
 
                                                     <a
@@ -252,7 +253,7 @@
 
                                                     <!--end row-->
                                                 </div>
-
+                                                <p class="text-muted">{{$user->about_me}}</p>
                                                 <div class="mt-3">
                                                     <a
                                                         href="/candidate-details/{{$user->user->id}}"

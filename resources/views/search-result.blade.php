@@ -66,12 +66,12 @@
                 <div class="page-content">
 
                     <!-- START HOME -->
-                    <section class="bg-home2" id="home">
-                        <div class="container mb-0">
-                            <div class="row align-items-center mb-0 pb-0">
-                                <div class="col-lg-7 mb-0 pb-0">
-                                    <div class="mb-4 pb-3 me-lg-5">
-                                        <h6 class="text-primary">We have {{\App\Models\job::all()->count()}}
+                    <section class="bg-home2 mt-0" id="home">
+                        <div class="container">
+                            <div class="row  ">
+                                <div class="col-lg-7 mt-5  ">
+                                    <div class="mb-3 pb-3 me-lg-5">
+                                        <h6 class="text-primary">We have  {{\App\Models\job::all()->count()}}
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
                                             your dream jobs with <span
@@ -98,7 +98,7 @@
                                                                name="search"
                                                                class="form-control
                                                                              filter-input-box"
-                                                               placeholder="Job,a Description..">
+                                                               placeholder="Job,company name,a Description..">
                                                     </div>
                                                 </div>
 
@@ -126,10 +126,10 @@
                                 </div>
                                 <!--end col-->
                                 <div class="col-lg-5">
-                                    <div class="mt-5 mt-md-0 mb-0">
-                                        <img
-                                            src="./assets/images/process-02.png"
-                                            alt="" class="home-img" />
+                                    <div class="mt-md-0">
+                                        <img class="mt-0"
+                                             src="./assets/images/process-02.png"
+                                             alt="" class="home-img" />
                                     </div>
                                 </div>
                                 <!--end col-->
@@ -172,8 +172,7 @@
                                                                     <div class="col-lg-10">
                                                                         <div class="mt-3
                                                         mt-lg-0">
-                                                                            <h5 class="fs-17
-                                                            mb-1"><a
+                                                                            <h5 class="fs-17 mb-1"><a
                                                                                     href="/job-details/{{$job->id}}"
                                                                                     class="text-dark">{{$job->jobtitle}}</a>
                                                                             </h5>
@@ -213,16 +212,13 @@
                                                                                     </div>
                                                                                 </li>
 
-                                                                                <li
-                                                                                    class="">
-                                                                                    <p
-                                                                                        class="text-muted
-                                                                    fs-14
-                                                                    mb-0"><i
-                                                                                            class="uil
-                                                                        uil-wallet"></i>
-                                                                                        {{$job->salary}}</p>
-                                                                                </li>
+                                                                <li
+                                                                    class="">
+                                                                    <p
+                                                                        class="text-muted fs-14 mb-0"><i
+                                                                            class="uil uil-wallet"></i>
+                                                                        {{$job->salary}}</p>
+                                                                </li>
                                                                             </ul>
 
                                                                         </div>
@@ -411,8 +407,14 @@
                                                     </div>
                                                 @endif
                                             @empty
-                                                <h5
-                                                    class="text-center">No Jobs Yet.</h5>
+                                                <div>
+                                                    <img width="800"
+                                                         height="600"
+                                                        src="./assets/images/Empty-rafiki.png"
+                                                        alt="" class="home-img" />
+                                                    <h5
+                                                        class="text-center">No Jobs Yet.</h5>
+                                                </div>
 
                                             @endforelse
                                         </div>

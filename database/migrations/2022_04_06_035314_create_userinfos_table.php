@@ -19,6 +19,7 @@ return new class extends Migration
                 ->references('id')
                 ->on('users')
                 ->onDelete('cascade');
+            $table->text('about_me');
             $table->text('education');
             $table->text('skills');
             $table->text('expirence');

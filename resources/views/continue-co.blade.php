@@ -58,7 +58,7 @@
 
             <!--Navbar Start-->
 
-            @include('upbar')
+
 
             <!-- START SIGN-UP MODAL -->
 
@@ -138,7 +138,7 @@
                                                     id="settings"
                                                     role="tabpanel"
                                                     aria-labelledby="settings-tab">
-                                                    <form method="post" action="/store-info">
+                                                    <form method="post" action="/store-info" enctype="multipart/form-data">
                                                         @csrf
 
                                                         <div>
@@ -278,7 +278,7 @@
                                                         <div class="mt-4
                                                             text-end">
                                                             <button class="btn btn-primary" type="submit">
-                                                                Save
+                                                                Next
                                                             </button>
                                                         </div>
 

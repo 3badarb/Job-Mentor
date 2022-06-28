@@ -104,7 +104,7 @@
                                             <div class="candidate-profile
                                                 text-center">
                                                 <img
-                                                    src={{asset("storage/".$user->userinfo->avatar)}}
+                                                    src="{{asset("storage/".$user->userinfo->avatar)}}"
                                                     alt="" class="avatar-lg
                                                     rounded-circle">
                                                 <h6 class="fs-18 mb-0 mt-4">{{$user->name}}</h6>
@@ -163,8 +163,7 @@
                                                         <div class="icon
                                                             bg-soft-primary
                                                             flex-shrink-0">
-                                                            <i class="uil
-                                                                uil-map-marker"></i>
+                                                            <span class="iconify" data-icon="icon-park-outline:international" style="color: blue;"></span>
                                                         </div>
                                                         <div class="ms-3">
                                                             <h6 class="fs-14
@@ -199,8 +198,7 @@
                                                         <div class="icon
                                                             bg-soft-primary
                                                             flex-shrink-0">
-                                                            <i class="uil
-                                                                uil-phone"></i>
+                                                            <span class="iconify" data-icon="cil:birthday-cake" style="color: blue;"></span>
                                                         </div>
                                                         <div class="ms-3">
                                                             <h6 class="fs-14
@@ -226,6 +224,13 @@
                                             candidate-personal-detail">
                                             <div>
                                                 <h6 class="fs-17 fw-semibold
+                                                    mb-3">About me</h6>
+                                                <p class="text-muted mb-2">{{$info->about_me}}</p>
+                                            </div>
+                                            <br/>
+
+                                            <div>
+                                                <h6 class="fs-17 fw-semibold
                                                     mb-3">Education</h6>
                                                 <p class="text-muted mb-2">{{$info->education}}</p>
                                             </div>
@@ -244,18 +249,13 @@
                                                             text-muted">{{$info->expirence}}</p>
                                                     </div>
                                                 </div>
-                                             <div
-                                                class="candidate-education-details
-                                                mt-4 pt-3">
-                                                <h6 class="fs-17 fw-bold mb-0">Skills</h6>
-                                                <div
-                                                    class="candidate-education-content
-                                                    mt-4 d-flex">
-
-
-                                                    <p class="mb-2
+                                             <div class="mt-4">
+                                                        <h5 class="fs-18
+                                                            fw-bold">Skills</h5>
+                                                        <p class="mb-2
                                                             text-muted">{{$info->skills}}</p>
-                                                </div>
+
+                                                    </div>
                                              </div>
                                             </div>
 
@@ -265,9 +265,10 @@
                                     <!--end col-->
                                 </div>
                                 <!--end row-->
-                            </div>
+
+
                             <!--end container-->
-                        </div>
+
 
                         </section>
                         <!-- END CANDIDATE-DETAILS -->
@@ -275,7 +276,8 @@
                     </div>
                     <!-- End Page-content -->
 
-
+            </div>
+        </div>
                     <!-- START FOOTER -->
                     @include('downbar')
                     <!-- END FOOTER -->
@@ -284,11 +286,9 @@
                                         <!-- end switcher-->
 
 
-                </div>
-                <!-- end main content-->
+        <!-- end main content-->
 
-            </div>
-            <!-- END layout-wrapper -->
+        <!-- END layout-wrapper -->
 
         <!-- JAVASCRIPT -->
         <script
@@ -308,6 +308,7 @@
         <!-- Switcher Js -->
         <script src={{asset("./assets/js/pages/switcher.init.js")}}></script>
         <script src={{asset("./assets/js/app.js")}}></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
         </body>
 

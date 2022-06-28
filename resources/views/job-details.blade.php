@@ -208,7 +208,7 @@
 
                                 <div class="col-lg-4 mt-4 mt-lg-0">
                                     <!--start side-bar-->
-                                    <div class="side-bar ms-lg-4">
+                                    <div class="side-bar">
                                         <div class="card job-overview">
                                             <div class="card-body p-4">
                                                 <h6 class="fs-17">Job
@@ -221,10 +221,9 @@
                                                             class="d-flex
                                                             mt-4">
                                                             <i
-                                                                class="uil
-                                                                uil-user
+                                                                class="
                                                                 icon
-                                                                bg-soft-primary"></i>
+                                                                bg-soft-primary"><span class="iconify" data-icon="fluent:subtitles-16-regular" style="color: blue;" data-width="22"></span></i>
                                                             <div
                                                                 class="ms-3">
                                                                 <h6
@@ -278,14 +277,12 @@
                                                         btn-primary
                                                         btn-hover w-100
                                                         mt-2">Apply
-                                                        Now <i
-                                                            class="uil
-                                                            uil-arrow-right"></i></button>
+                                                        Now <i class="iconify mb-2" data-icon="mdi:gesture-tap" data-width="24"></i></button>
 
                                                     </form>
                                                     @endif
                                                     @if(\App\Http\Controllers\jobController::checkapply($job->id) )
-                                                        <div class="mt-3">
+                                                        <div class="mt-3 text-center text-success">
                                                             <p>
                                                                 You have applied for this job.</p>
                                                         </div>
@@ -294,9 +291,8 @@
                                                 </div>
 
                                                 @guest()
-                                                    <div class="mt-3">
-                                                        <p>
-                                                            NOTE: if you want to apply for this job you have
+                                                    <div class="mt-3 ms-3 me-2">
+                                                    <p><b>NOTE:</b> if you want to apply for this job you have
                                                         to sign in</p>
                                                     </div>
                                                 @endguest
@@ -307,12 +303,11 @@
 
                                         <div class="card company-profile
                                             mt-4">
-                                            <div class="card-body p-4">
+                                            <div class="card-body ">
                                                 <div
                                                     class="text-center">
                                                     <img class="img-fluid rounded-3 rounded-3" alt=""
-                                                         src="{{asset("storage/".$job->myuser->companyinfo->avatar)}}"
-                                                    >
+                                                         src="{{asset("storage/".$job->myuser->companyinfo->avatar)}}">
 
                                                     <div class="mt-4">
                                                         <h6 class="fs-17
@@ -463,7 +458,7 @@
 
         <!-- App Js -->
         <script src={{asset("public/assets/js/app.js")}}></script>
-
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
         </body>
 
     </html>

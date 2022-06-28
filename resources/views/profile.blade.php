@@ -16,21 +16,24 @@
 
         <!-- Choise Css -->
         <link rel="stylesheet"
-            href={{asset("./assets/libs/choices.js/public/./assets/styles/choices.min.css")}}>
+              href={{asset("./assets/libs/choices.js/public/./assets/styles/choices.min.css")}}>
         <!-- Bootstrap Css -->
         <link href={{asset("./assets/css/bootstrap.min.css")}} id="bootstrap-style"
-            rel="stylesheet" type="text/css" />
+              rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
         <link href={{asset("./assets/css/icons.min.css")}} rel="stylesheet"
-            type="text/css"
-            />
+              type="text/css"
+        />
         <!-- App Css-->
         <link href={{asset("./assets/css/app.min.css")}} id="app-style" rel="stylesheet"
-            type="text/css" />
+              type="text/css" />
+        <script
+            src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <!--Custom Css-->
         <link href={{asset("./custom.css")}} rel="stylesheet" />
-        <link rel="stylesheet"
-            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="stylesheet" type="text/css" href={{asset("./assets/css/star-rating-svg.css")}}>
+        <script src={{asset("./assets/js/jquery.star-rating-svg.js")}}></script>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
 
     <body>
@@ -120,10 +123,9 @@
                                                 border-bottom">
 
                                                 <img
+                                                class="avatar-lgg   mb-4 img-thumbnail rounded-circle "
                                                     src="{{asset("storage/".$info->avatar)}}"
-                                                    alt="" class="avatar-lg
-                                                    img-thumbnail rounded-circle
-                                                    mb-4" />
+                                                     />
 
                                                 <h5 class="mb-0">{{$user->name}}</h5>
                                                  <!--<p class="text-muted">Developer</p>-->
@@ -196,8 +198,7 @@
                                                         class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-2" data-icon="mdi:gesture-tap" data-width="24"></i>
                                                         Jobs that you apply</button>
                                                 </form>
                                             </div>
@@ -212,8 +213,7 @@
                                                         class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-1 mx-sm-1" data-icon="icon-park-outline:good-two" data-width="24"></i>
                                                         Jobs mtach you</button>
                                                 </form>
                                             </div>
@@ -308,13 +308,14 @@
                                                             {{$info->expirence}}
                                                         </p>
                                                     </div>
+
                                                     <div class="mt-4">
                                                         <h5 class="fs-18
                                                             fw-bold">Skills</h5>
                                                         <p class="mb-2 mt-4 m-lg-4
                                                         text-muted">
-                                                            {{$info->skills}}
-                                                        </p>
+                                                            {{$info->skills}}   </p>                                                     </p>
+
 
                                                     </div>
                                                 </div>
@@ -684,9 +685,7 @@
                                                                 class="mb-3">
                                                                 <label
                                                                     for="jobtilte"
-                                                                    class="form-label"></label>
-
-
+                                                                    class="form-label">Change your job title</label>
                                                                 <input
                                                                     type="text"
                                                                     class="form-control"
@@ -698,50 +697,82 @@
                                                         </div>
                                                         <div class="mt-4
                                                             text-end">
-                                                            <button class="btn btn-primary" type="submit">Save</button>
+                                                            <button class="btn btn-primary" type="submit">Update</button>
 
                                                         </div>
-                                                    </form>
+                                                                        </form>
+                                                         <form method="post" action="/updatemodel2">
+                                                        @method('put')
+                                                        <div class="mt-4">
+                                                            <h5 class="fs-17
+                                                                fw-semibold
+                                                                mb-3">if you want change the years of your experience</h5>
+                                                        </div>
+                                                        <div
+                                                            class="col-lg-6">
+                                                            <div
+                                                                class="mb-3">
+                                                                <label
+                                                                    for="jobtilte"
+                                                                    class="form-label"></label>
+                                                                <label for="yoe">Years of experience</label>
+                                                        <br>
+
+                                                        <select class="form-select form-select-sm" name="yoe" id="yoe" aria-label=".form-select-sm example">
+                                                            <option value="" selected disabled hidden>{{$yoe ?? 'choose'}}</option>
+                                                            <option value="0">0</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                        </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-4
+                                                            text-end">
+                                                            <button class="btn btn-primary" type="submit">Update</button>
+
+                                                        </div>
+                                                                        </form>
+
+
                                                     <!--end form-->
                                                 </div>
                                                 <div class="tab-pane fade"
                                                      id="rating"
                                                      role="tabpanel"
                                                      aria-labelledby="settings-tab">
-                                                    <div
+                                                    <!-- <div
                                                         class="candidate-education-details
                                                         mt-4">
-                                                        <h6 class="fs-18 fw-bold
-                                                            mb-0 ">Depending on our AI the best job title match your CV is:</h6>
-                                                        <p class="mb-2 mt-4 m-lg-4 fw-bold fs-16
-                                                        text-muted">{{$info->jobtitle ? $info->jobtitle : 'Some thing went wrong please re-update your CV'}}</p>
-                                                        <h7 class="">*NOTE: if you want to change it change from the Your CV tab.*</h7>
+                                                        <h5 class="fs-18 fw-bold
+                                                            mb-0 ">Depending on our AI What we give you:</h5>
 
                                                     </div>
-                                                    <div class='container mt-5'>
-                                                        <form method="post" action="/updatemodel2">
-                                                            <label for="yoe">Years of experience</label>
-                                                            <select name="yoe" id="yoe">
-                                                                <option value="0">0</option>
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                                <option value="5">5</option>
-                                                                <option value="6">6</option>
-                                                                <option value="7">7</option>
-                                                                <option value="8">8</option>
-                                                                <option value="9">9</option>
-                                                            </select>
-                                                            <input type="submit" value="Submit" />
-                                                        </form>
+                                                    <br /> -->
+                                                    <div
+                                                        class="candidate-education-details
+                                                        mt-0">
+                                                        <h6 class="fs-18 fw-bold
+                                                            mb-0 ">The digest of your CV is</h6>
+                                                        <p class="mb-2 mt-4 m-lg-4 fw-bold fs-16
+                                                        text-muted">{{$info->about_me}}</p>
+
+
                                                     </div>
+
                                                     @if(\App\Models\usermodel2::where('user_id',auth()->user()->id)->exists())
                                                         <div
                                                             class="candidate-education-details
                                                         mt-4">
                                                             <h6 class="fs-18 fw-bold
-                                                            mb-0">Expecting Salary :</h6>
+                                                            mb-0">Expecting Salary is</h6>
                                                             <p class="mb-2 mt-4 m-lg-4
                                                         text-muted">{{auth()->user()->model2->salary}}</p>
                                                         </div>
@@ -749,14 +780,25 @@
                                                             class="candidate-education-details
                                                         mt-4">
                                                             <h6 class="fs-18 fw-bold
-                                                            mb-0">Your Evaluation from 10:</h6>
-                                                            <p class="mb-2 mt-4 m-lg-4
-                                                        text-muted">{{auth()->user()->model2->evaluation}}</p>
+                                                            mb-0">Your Evaluation is</h6>
+                                                        <!-- <p class="mb-2 mt-4 m-lg-4
+                                                        text-muted">{{auth()->user()->model2->evaluation}}</p> -->
+                                                            <br>
+                                                            <span class="my-rating"></span>
+                                                            <span class="ps-4" style=" font-size: 43px;
+  margin-left: 10px;
+  color: hotPink;
+  top: 10px;
+  position: relative;" >{{auth()->user()->model2->evaluation}}</span>
+
                                                         </div>
+
+                                                </div>
 
                                                     @endif
 
                                                 </div>
+
 
                                             </div>
                                             <!--end tab-content-->
@@ -790,6 +832,27 @@
         <!-- END layout-wrapper -->
 
         <!-- JAVASCRIPT -->
+        <script>
+            $('.my-rating').starRating({
+                readOnly: true,
+                totalStars: 10,
+
+                emptyColor: 'lightgray',
+                hoverColor: 'salmon',
+                activeColor: '#0275d8',
+                initialRating: {{auth()->user()->model2->evaluation}},
+                strokeWidth: 0,
+                useGradient: false,
+                minRating: 1,
+                forceRoundUp:true,
+
+                starShape:'rounded',
+
+
+
+            });
+        </script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
         <script
             src={{asset("./assets/libs/bootstrap/js/bootstrap.bundle.min.js")}}></script>
         <script

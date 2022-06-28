@@ -20,6 +20,7 @@ class UserinfoFactory extends Factory
         return [
             //
             'user_id'=>User::factory(['tag'=>'U']),
+            'about_me'=>$this->faker->realText,
             'education'=>$this->faker->realText,
             'skills'=>$this->faker->text,
             'expirence'=>$this->faker->text,

@@ -107,7 +107,7 @@
                                                 src="{{asset("storage/".$company->companyinfo->avatar)}}"
                                                 alt="" class="col-md-3 img-fluid rounded-3">
                                             <div class="mt-4">
-                                                <a href="company-details.html"
+                                                <a href="/company-details/{{$company->id}}"
                                                     class="primary-link">
                                                     <h6 class="fs-18 mb-2">{{$company->name}}</h6>
                                                 </a>
@@ -131,7 +131,7 @@
                                                         src="{{asset("storage/".$company->companyinfo->avatar)}}"
                                                         alt="" class="col-md-3 img-fluid rounded-3">
                                                     <div class="mt-4">
-                                                        <a href="company-details.html"
+                                                        <a href="/company-details/{{$company->id}}"
                                                            class="primary-link">
                                                             <h6 class="fs-18 mb-2">{{$company->name}}</h6>
                                                         </a>
@@ -155,7 +155,7 @@
                                                         src="{{asset("storage/".$company->companyinfo->avatar)}}"
                                                         alt="" class="col-md-3 img-fluid rounded-3">
                                                     <div class="mt-4">
-                                                        <a href="company-details.html"
+                                                        <a href="/company-details/{{$company->id}}"
                                                            class="primary-link">
                                                             <h6 class="fs-18 mb-2">{{$company->name}}</h6>
                                                         </a>

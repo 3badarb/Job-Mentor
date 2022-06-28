@@ -173,10 +173,9 @@
                                                             class="d-flex
                                                             mt-4">
                                                             <i
-                                                                class="uil
-                                                                uil-user
+                                                                class="
                                                                 icon
-                                                                bg-soft-primary"></i>
+                                                                bg-soft-primary"><span class="iconify" data-icon="fluent:subtitles-16-regular" style="color: blue;" data-width="22"></span></i>
                                                             <div
                                                                 class="ms-3">
                                                                 <h6
@@ -252,8 +251,7 @@
                                                         class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-1 " data-icon="icomoon-free:bin" data-width="20"></i>
                                                         Delete this Opportunity </button>
                                                   </form>
                                                 </div>
@@ -267,8 +265,7 @@
                                                             class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-1" data-icon="ant-design:edit-outlined" data-width="25"></i>
                                                             Edit it</button>
                                                     </form>
                                                 </div>
@@ -282,8 +279,7 @@
                                                             class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-1" data-icon="bi:person" data-width="20"></i>
                                                             Show Appliers</button>
                                                     </form>
                                                 </div>
@@ -297,8 +293,7 @@
                                                             class="btn
                                                         btn-primary
                                                         btn-hover w-100
-                                                        rounded"><i class="uil
-                                                            uil-eye"></i>
+                                                        rounded"><i class="iconify mb-1 mx-sm-1 uil-align-left" data-icon="icon-park-outline:good-two" data-width="20"></i>
                                                             The PERFECT ones for you</button>
                                                     </form>
                                                 </div>
@@ -402,6 +397,7 @@
             <!-- END layout-wrapper -->
 
             <!-- JAVASCRIPT -->
+             <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
             <script
                 src={{asset("./assets/libs/bootstrap/js/bootstrap.bundle.min.js")}}></script>
             <script

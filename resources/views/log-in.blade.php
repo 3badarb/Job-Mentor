@@ -95,31 +95,16 @@
                                                                 in to continue
                                                                 to Jobcy.</p>
                                                         </div>
-                                                        @if($errors->any())
+                                                        @error('email')
                                                             <div class="text-center
                                                             mb-4">
-                                                            @foreach($errors->all() as $error)
-
                                                                 <p>
-
-
-                                                                            @if($error === "You don't have account with this email")
                                                                         <small style="color: rgba(67,11,11,0.93)">
-                                                                                You don't have account with this email
-                                                                         </small>
-                                                                            @break
-                                                                        @else
-                                                                        <small style="color: rgba(67,11,11,0.93)">
-                                                                            {{$error}}
+                                                                            {{$message}}
                                                                         </small>
-                                                                        @endif
-
-
                                                                 </p>
-                                                            @endforeach
                                                             </div>
-                                                        @endif
-
+                                                        @enderror
                                                         <form method="post"
                                                             action="/log-in"
                                                             class="auth-form">
@@ -134,7 +119,8 @@
                                                                     id="email"
                                                                     name="email"
                                                                     placeholder="Enter&nbsp;Email"
-                                                                    required>
+                                                                    required
+                                                                value="{{old('email')}}">
                                                             </div>
                                                             <div class="mb-3">
                                                                 <label

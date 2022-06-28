@@ -24,6 +24,7 @@ return new class extends Migration
             $table->text('requirement');
             $table->text('expirence');
             $table->string('salary');
+            $table->integer('evaluation');
             $table->timestamps();
         });
     }

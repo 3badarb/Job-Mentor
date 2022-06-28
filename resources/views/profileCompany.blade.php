@@ -85,15 +85,6 @@
                         </div>
                     </div>
                     <!-- END SHAPE -->
-                <?php if(Auth::check()){
-
-
-                }
-                else
-                    abort(404,"you are not logged in");
-
-
-                ?>
 
                     <!-- START PROFILE -->
                     <section class="section">
@@ -662,7 +653,7 @@
                                                         </li>
                                                         @empty
                                                         <h5 class="fs-18
-                                                            fw-bold m-lg-5">No Jobs To Show</h5>
+                                                            fw-bold m-lg-5">You haven't post a job yet</h5>
 
                                                         @endforelse
 
@@ -723,7 +714,7 @@
 
         <!-- App Js -->
         <script src={{asset("public/assets/js/app.js")}}></script>
-
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     </body>
 
 </html>

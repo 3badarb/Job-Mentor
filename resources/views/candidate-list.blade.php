@@ -136,16 +136,14 @@
                                                             href="/candidate-details/{{$user->id}}"
                                                             class="primary-link">
                                                             <h5
-                                                                class="fs-17">{{$user->name}}</h5>
+                                                                class="fs-17 pt-4">{{$user->name}}</h5>
                                                         </a>
                                                     </div>
                                                 </div>
-
                                                 <div class="border rounded
                                                     mb-4">
-
                                                 </div>
-
+                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
                                                     <a
                                                         href="/candidate-details/{{$user->id}}"
@@ -189,7 +187,7 @@
                                                             href="/candidate-details/{{$user->id}}"
                                                             class="primary-link">
                                                             <h5
-                                                                class="fs-17">{{$user->name}}</h5>
+                                                                class="fs-17 pt-4">{{$user->name}}</h5>
                                                         </a>
 
                                                     </div>
@@ -200,6 +198,7 @@
 
                                                     <!--end row-->
                                                 </div>
+                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
 
                                                     <a
@@ -241,7 +240,7 @@
                                                             href="/candidate-details/{{$user->id}}"
                                                             class="primary-link">
                                                             <h5
-                                                                class="fs-17">{{$user->name}}</h5>
+                                                                class="fs-17 pt-4">{{$user->name}}</h5>
                                                         </a>
 
                                                     </div>
@@ -252,7 +251,7 @@
 
                                                     <!--end row-->
                                                 </div>
-
+                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
                                                     <a
                                                         href="/candidate-details/{{$user->id}}"

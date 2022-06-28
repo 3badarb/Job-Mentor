@@ -24,7 +24,8 @@ class JobFactory extends Factory
             'description'=>$this->faker->text,
             'requirement'=>$this->faker->text,
             'expirence'=>$this->faker->text,
-            'salary'=>$this->faker->numberBetween(100,1000)
+            'salary'=>$this->faker->numberBetween(100,1000),
+            'evaluation'=>$this->faker->numberBetween(0,10),
 
         ];
     }

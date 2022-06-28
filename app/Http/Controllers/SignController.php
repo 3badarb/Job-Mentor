@@ -12,9 +12,13 @@ use Illuminate\Validation\ValidationException;
 use JetBrains\PhpStorm\NoReturn;
 use phpDocumentor\Reflection\Types\Static_;
 
+
+
 class SignController extends Controller
 {
     //
+    protected string $portmodel1='http://192.168.43.156:3000/model1';
+    protected string $portmodel2='http://192.168.43.156:3000/modle2';
 
     public function signAsUser(){
 
@@ -51,22 +55,35 @@ class SignController extends Controller
         $infos=$this->getValidateuser();
 
             try {
-                $response=Http::post('http://192.168.43.156:3000/userClass',[
-                    'resume'=>$infos['education'].$infos['expirence'].$infos['skills']
+                $response=Http::post($this->portmodel1,[
+                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
                 ]);
 
-                $infos['jobtitle']=$response['resume'];
+                $infos['jobtitle']=$response['jobtitle'];
             }
             catch (\Illuminate\Http\Client\ConnectionException $e){
-                $infos['jobtitle']="";
+                $infos['jobtitle']="don't work i am princess";
             }
+
+            //////the Digest of CV///////////////////////////////////////////////////////////
+//            try {
+//                $response=Http::post($this->portmodel1,[
+//                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+//                ]);
+//
+//                $infos['about_me']=$response['cv'];
+//            }
+//            catch (\Illuminate\Http\Client\ConnectionException $e){
+//                $infos['about_me']="I am Cool";
+//            }
+            $infos['about_me']="I am Cool";
 
             if(request('avatar') !== null)
                 $infos['avatar']=\request()->file('avatar')->store('avatar');
 
-        auth()->user()->userinfo()->updateOrCreate($infos);
+        auth()->user()->userinfo()->create($infos);
 
-        return redirect('/profile');
+        return redirect('/continue-user2');
         }
         elseif (auth()->user()->tag === 'C'){
 
@@ -85,6 +102,13 @@ class SignController extends Controller
         return auth()->user();
     }
 
+    public function changejobtitle(){
+
+        auth()->user()->userinfo()->update(['jobtitle'=>\request('jobtitle')]);
+
+        return redirect('/continue-user3');
+
+    }
     public function changepassword(){
 
         if (bcrypt(\request('current_password'))!== auth()->user()->password)
@@ -115,15 +139,29 @@ class SignController extends Controller
             $infos=$this->getValidateuser();
 
             try {
-                $response=Http::post('http://192.168.43.156:3000/userClass',[
-                    'resume'=>$infos['education'].$infos['expirence'].$infos['skills']
+                $response=Http::post($this->portmodel1,[
+                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
                 ]);
 
-                $infos['jobtitle']=$response['resume'];
+                $infos['jobtitle']=$response['jobtitle'];
+
             }
             catch (\Illuminate\Http\Client\ConnectionException $e){
-                $infos['jobtitle']="";
+                $infos['jobtitle']="don't work i am princess";
+
             }
+
+            //the digest of CV////////////////////////////////////////////////////////////////////
+//            try {
+//                $response=Http::post('http://192.168.43.156:3000/userClass',[
+//                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+//                ]);
+//
+//                $infos['about_me']=$response['cv'];
+//            }
+//            catch (\Illuminate\Http\Client\ConnectionException $e){
+//                $infos['about_me']="I am Cool";
+//            }
 
             if(request('avatar') !== null) {
                 \Illuminate\Support\Facades\File::delete("storage/".auth()->user()->userinfo->avatar);
@@ -151,6 +189,22 @@ class SignController extends Controller
     }
     public function postajob(){
         $info=$this->getValidatejob();
+
+        try {
+            $response=Http::post($this->portmodel2,[
+                'yoe'=>\request('yoe'),
+                'job title'=>$info['jobtitle'],
+                'cv'=>$info['requirement'].$info['expirence']
+
+            ]);
+
+            $infos['evaluation']=$response['rating'];
+        }
+        catch (\Illuminate\Http\Client\ConnectionException $e){
+            $info['evaluation']='2';
+        }
+
+
         auth()->user()->job()->updateOrCreate($info);
 
         return back();
@@ -167,7 +221,6 @@ class SignController extends Controller
         $x=job::find($id);
 
         $x->update($this->getValidatejob());
-
 
         return redirect('/myjob-details/'.$id);
     }
@@ -191,8 +244,8 @@ class SignController extends Controller
             return redirect('/');
 
         }
-        throw ValidationException::withMessages(['email'=>"You don't have account with this email",
-            'password'=>'This is not your password']);
+        return back()->withInput()
+            ->withErrors(['email'=>'Something wrong with your credentials']);
     }
 public function getValidatFirstSign(){
 

@@ -19,7 +19,7 @@ return new class extends Migration
                 ->references('id')
                 ->on('users')
                 ->onDelete('cascade');
-            $table->integer('evaluation')->nullable();
+            $table->float('evaluation')->nullable();
             $table->integer('salary')->nullable();
             $table->rememberToken();
             $table->timestamps();

@@ -33,7 +33,11 @@ class jobController extends Controller
     }
     public function theperfects(job $job){
 
-        $u=userinfo::with('user')->latest()->where('jobtitle','like','%'.$job->jobtitle.'%')->paginate(10);
+        $u=userinfo::with('user')->where('jobtitle','like','%'.$job->jobtitle.'%')
+            ->whereHas('user.model2',function ($query)use($job){
+                $query->whereBetween('evaluation', [$job->evaluation - 2, $job->evaluation + 2]);
+            })
+            ->paginate(10);
 
 
 

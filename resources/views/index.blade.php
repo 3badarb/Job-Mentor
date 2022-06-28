@@ -75,11 +75,11 @@
                 <div class="page-content">
 
                     <!-- START HOME -->
-                    <section class="bg-home2" id="home">
+                    <section class="bg-home2 mt-0" id="home">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7">
-                                    <div class="mb-4 pb-3 me-lg-5">
+                            <div class="row  ">
+                                <div class="col-lg-7 mt-5  ">
+                                    <div class="mb-3 pb-3 me-lg-5">
                                         <h6 class="text-primary">We have  {{\App\Models\job::all()->count()}}
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
@@ -135,8 +135,8 @@
                                 </div>
                                 <!--end col-->
                                 <div class="col-lg-5">
-                                    <div class="mt-5 mt-md-0">
-                                        <img
+                                    <div class="mt-md-0">
+                                        <img class="mt-0"
                                             src="./assets/images/process-02.png"
                                             alt="" class="home-img" />
                                     </div>
@@ -374,76 +374,73 @@
                                 <div class="col-lg-6">
                                     <div class="section-title text-center mb-4
                                         pb-2">
-                                        <h4 class="title">New  Jobs</h4>
-                                        <p class="text-muted mb-1">Post a job to
-                                            tell us about your project. We'll
-                                            quickly match you with the right
-                                            freelancers.</p>
+                                        <h4 class="title text-primary">New  Jobs</h4>
+                                        <p class="text-muted fs-18 mb-1">The recent jobs that has posted.<br>Post a job to match you with right candidate with you.</p>
                                     </div>
                                 </div>
                                 <!--end col-->
                             </div>
                             <!--end row-->
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <ul class="job-list-menu nav nav-pills
-                                        nav-justified flex-column flex-sm-row
-                                        mb-4" id="pills-tab" role="tablist">
-                                        <li class="nav-item"
-                                            role="presentation">
-                                            <button class="nav-link active"
-                                                id="recent-jobs-tab"
-                                                data-bs-toggle="pill"
-                                                data-bs-target="#recent-jobs"
-                                                type="button" role="tab"
-                                                aria-controls="recent-jobs"
-                                                aria-selected="true">Recent Jobs</button>
-                                        </li>
-    {{--                                        <li class="nav-item"--}}
-    {{--                                            role="presentation">--}}
-    {{--                                            <button class="nav-link"--}}
-    {{--                                                id="featured-jobs-tab"--}}
-    {{--                                                data-bs-toggle="pill"--}}
-    {{--                                                data-bs-target="#featured-jobs"--}}
-    {{--                                                type="button" role="tab"--}}
-    {{--                                                aria-controls="featured-jobs"--}}
-    {{--                                                aria-selected="false">Featured--}}
-    {{--                                                Jobs</button>--}}
-    {{--                                        </li>--}}
-    {{--                                        <li class="nav-item"--}}
-    {{--                                            role="presentation">--}}
-    {{--                                            <button class="nav-link"--}}
-    {{--                                                id="freelancer-tab"--}}
-    {{--                                                data-bs-toggle="pill"--}}
-    {{--                                                data-bs-target="#freelancer"--}}
-    {{--                                                type="button" role="tab"--}}
-    {{--                                                aria-controls="freelancer"--}}
-    {{--                                                aria-selected="false">Freelancer</button>--}}
-    {{--                                        </li>--}}
-    {{--                                        <li class="nav-item"--}}
-    {{--                                            role="presentation">--}}
-    {{--                                            <button class="nav-link"--}}
-    {{--                                                id="part-time-tab"--}}
-    {{--                                                data-bs-toggle="pill"--}}
-    {{--                                                data-bs-target="#part-time"--}}
-    {{--                                                type="button" role="tab"--}}
-    {{--                                                aria-controls="part-time"--}}
-    {{--                                                aria-selected="false">Part Time</button>--}}
-    {{--                                        </li>--}}
-    {{--                                        <li class="nav-item"--}}
-    {{--                                            role="presentation">--}}
-    {{--                                            <button class="nav-link"--}}
-    {{--                                                id="full-time-tab"--}}
-    {{--                                                data-bs-toggle="pill"--}}
-    {{--                                                data-bs-target="#full-time"--}}
-    {{--                                                type="button" role="tab"--}}
-    {{--                                                aria-controls="full-time"--}}
-    {{--                                                aria-selected="false">Full Time</button>--}}
-    {{--                                        </li>--}}
-                                    </ul>
-                                </div>
-                                <!--end col-->
-                            </div>
+{{--                            <div class="row justify-content-center">--}}
+{{--                                <div class="col-lg-8">--}}
+{{--                                    <ul class="job-list-menu nav nav-pills--}}
+{{--                                        nav-justified flex-column flex-sm-row--}}
+{{--                                        mb-4" id="pills-tab" role="tablist">--}}
+{{--                                        <li class="nav-item"--}}
+{{--                                            role="presentation">--}}
+{{--                                            <button class="nav-link active"--}}
+{{--                                                id="recent-jobs-tab"--}}
+{{--                                                data-bs-toggle="pill"--}}
+{{--                                                data-bs-target="#recent-jobs"--}}
+{{--                                                type="button" role="tab"--}}
+{{--                                                aria-controls="recent-jobs"--}}
+{{--                                                aria-selected="true">Recent Jobs</button>--}}
+{{--                                        </li>--}}
+{{--    --}}{{--                                        <li class="nav-item"--}}
+{{--    --}}{{--                                            role="presentation">--}}
+{{--    --}}{{--                                            <button class="nav-link"--}}
+{{--    --}}{{--                                                id="featured-jobs-tab"--}}
+{{--    --}}{{--                                                data-bs-toggle="pill"--}}
+{{--    --}}{{--                                                data-bs-target="#featured-jobs"--}}
+{{--    --}}{{--                                                type="button" role="tab"--}}
+{{--    --}}{{--                                                aria-controls="featured-jobs"--}}
+{{--    --}}{{--                                                aria-selected="false">Featured--}}
+{{--    --}}{{--                                                Jobs</button>--}}
+{{--    --}}{{--                                        </li>--}}
+{{--    --}}{{--                                        <li class="nav-item"--}}
+{{--    --}}{{--                                            role="presentation">--}}
+{{--    --}}{{--                                            <button class="nav-link"--}}
+{{--    --}}{{--                                                id="freelancer-tab"--}}
+{{--    --}}{{--                                                data-bs-toggle="pill"--}}
+{{--    --}}{{--                                                data-bs-target="#freelancer"--}}
+{{--    --}}{{--                                                type="button" role="tab"--}}
+{{--    --}}{{--                                                aria-controls="freelancer"--}}
+{{--    --}}{{--                                                aria-selected="false">Freelancer</button>--}}
+{{--    --}}{{--                                        </li>--}}
+{{--    --}}{{--                                        <li class="nav-item"--}}
+{{--    --}}{{--                                            role="presentation">--}}
+{{--    --}}{{--                                            <button class="nav-link"--}}
+{{--    --}}{{--                                                id="part-time-tab"--}}
+{{--    --}}{{--                                                data-bs-toggle="pill"--}}
+{{--    --}}{{--                                                data-bs-target="#part-time"--}}
+{{--    --}}{{--                                                type="button" role="tab"--}}
+{{--    --}}{{--                                                aria-controls="part-time"--}}
+{{--    --}}{{--                                                aria-selected="false">Part Time</button>--}}
+{{--    --}}{{--                                        </li>--}}
+{{--    --}}{{--                                        <li class="nav-item"--}}
+{{--    --}}{{--                                            role="presentation">--}}
+{{--    --}}{{--                                            <button class="nav-link"--}}
+{{--    --}}{{--                                                id="full-time-tab"--}}
+{{--    --}}{{--                                                data-bs-toggle="pill"--}}
+{{--    --}}{{--                                                data-bs-target="#full-time"--}}
+{{--    --}}{{--                                                type="button" role="tab"--}}
+{{--    --}}{{--                                                aria-controls="full-time"--}}
+{{--    --}}{{--                                                aria-selected="false">Full Time</button>--}}
+{{--    --}}{{--                                        </li>--}}
+{{--                                    </ul>--}}
+{{--                                </div>--}}
+{{--                                <!--end col-->--}}
+{{--                            </div>--}}
                             <!--end row-->
                             <div class="row">
                                 @forelse($jobs as $job)
@@ -2639,10 +2636,8 @@
                                 <div class="col-lg-6">
                                     <div class="section-title me-5">
                                         <h3 class="title" id="How">How It Work</h3>
-                                        <p class="text-muted">Post a job to tell
-                                            us about your project. We'll quickly
-                                            match you with the right
-                                            employee.</p>
+                                        <p class="text-muted">If you are a company just register and post your job then see the applyers
+                                            ,Otherwise Follow the instructions.</p>
                                         <div class="process-menu nav flex-column
                                             nav-pills" id="v-pills-tab"
                                             role="tablist"
@@ -2663,15 +2658,11 @@
                                                         <h5 class="fs-18">Register
                                                             an account</h5>
                                                         <p class="text-muted
-                                                            mb-0">Due to its
-                                                            widespread use as
-                                                            filler text for
-                                                            layouts,
-                                                            non-readability is
-                                                            of great importance.</p>
+                                                            mb-0">Sign up and fill your information.</p>
                                                     </div>
                                                 </div>
                                             </a>
+                                            <br/>
                                             <a class="nav-link"
                                                 id="v-pills-profile-tab"
                                                 data-bs-toggle="pill"
@@ -2687,15 +2678,10 @@
                                                     <div class="flex-grow-1
                                                         text-start ms-3">
                                                         <h5 class="fs-18">Find
-                                                            your job</h5>
+                                                            a job</h5>
                                                         <p class="text-muted
-                                                            mb-0">There are many
-                                                            variations of
-                                                            passages of
-                                                            avaibookmark-label,
-                                                            but the majority
-                                                            alteration in some
-                                                            form.</p>
+                                                            mb-0">Find a job that you want to apply.
+                                                            or according to your information we will match the best job for you.</p>
                                                     </div>
                                                 </div>
                                             </a>
@@ -2716,12 +2702,8 @@
                                                         <h5 class="fs-18">Apply
                                                             for job</h5>
                                                         <p class="text-muted
-                                                            mb-0">It is a long
-                                                            established fact
-                                                            that a reader will
-                                                            be distracted by the
-                                                            readable content of
-                                                            a page.</p>
+                                                            mb-0">After you find the job you want, apply it.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </a>
@@ -2773,10 +2755,7 @@
                                             <span class="text-warning fw-bold">5,000+</span>
                                             Latest Jobs
                                         </h2>
-                                        <p class="text-muted">Post a job to tell
-                                            us about your project. We'll quickly
-                                            match you with the right
-                                            freelancers.</p>
+                                        <p class="text-muted">Quick sign in and apply for your dream job.</p>
                                         @guest()
 
                                         <div class="mt-4 pt-2">

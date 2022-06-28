@@ -15,6 +15,9 @@ use phpDocumentor\Reflection\Types\Static_;
 class userController extends Controller
 {
     //
+
+    protected $portmodel2='http://192.168.43.156:3000/model2';
+
     public function showjobs(User $User){
         $jobs=$User->jobs()->paginate(10);
         return view('myjob-list',['jobs'=>$jobs]);
@@ -39,11 +42,9 @@ class userController extends Controller
 
         return view('/job-list',['jobs'=>$u]);
 
-
-
     }
-    public static function checkapply($id){
 
+    public static function checkapply($id){
 
         return auth()->user()->jobs->contains($id);
     }
@@ -51,20 +52,46 @@ class userController extends Controller
     public function storemodel2(){
             $infos=auth()->user()->userinfo;
         try {
-            $response=Http::post('http://192.168.43.156:3000/userClass',[
+            $response=Http::post( $this->portmodel2,[
                 'yoe'=>\request('yoe'),
                 'job title'=>$infos->jobtitle,
                 'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
             ]);
 
-            $model2=$response;
+            $model2=['salary'=>$response['salary'],'evaluation'=>$response['rating']];
+//            dd($response['salary']);
         }
         catch (\Illuminate\Http\Client\ConnectionException $e){
             $model2=['salary'=>2,'evaluation'=>3];
+
         }
-        auth()->user()->model2()->create($model2);
-        return back();
+        
+        auth()->user()->model2()->Create($model2);
+
+       return redirect('profile');
     }
+    public function updatemodel2(){
+        $infos=auth()->user()->userinfo;
+        try {
+            $response=Http::post( $this->portmodel2,[
+                'yoe'=>\request('yoe'),
+                'job title'=>$infos->jobtitle,
+                'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+            ]);
+
+            $model2=['salary'=>$response['salary'],'evaluation'=>$response['rating']];
+//            dd($response['salary']);
+        }
+        catch (\Illuminate\Http\Client\ConnectionException $e){
+            $model2=['salary'=>2,'evaluation'=>3];
+
+        }
+        dd($response);
+        auth()->user()->model2()->update($model2);
+
+       return redirect('profile');
+    }
+
 
 
 }

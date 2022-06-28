@@ -100,12 +100,6 @@
                                     <img
                                         src="{{asset("./assets/images/job-detail.jpg")}}"
                                         class="img-custom" alt="">
-                                    <div
-                                        class="job-details-compnay-profile">
-                                        <img
-                                            src="{{asset("storage/".$job->myuser->companyinfo->avatar)}}"
-                                            class="img-fluid rounded-3 rounded-3">
-                                    </div>
                                 </div>
                                 <form method="post" action="/update-job/{{$job->id}}">
                                     @method('put')

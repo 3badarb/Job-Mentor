@@ -1272,14 +1272,14 @@ body[data-layout-mode='dark']
 }
 
 .bg-home2 {
-  padding: 198px 0 140px 0;
+  padding: 90px 0 140px 0;
   background-color: rgba(118, 109, 244, 0.1);
   overflow-x: clip;
 }
 
 @media (max-width: 767.98px) {
   .bg-home2 {
-    padding: 160px 0 125px 0;
+    padding: 90px 0 125px 0;
   }
 }
 
