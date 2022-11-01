@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnaCV</title>
+    <title>Job Mentor</title>
     <link rel="stylesheet" href="./style/st1.css" />
       <link rel="stylesheet" href="./style/st5.css" />
   </head>
@@ -105,7 +105,7 @@
         <img src="./img/in.png" alt="" />
         <img src="./img/tw.png" alt="" />
         <img src="./img/li.png" alt="" />
-        <p>© Copyright 2022 AnaCV</p>
+        <p>© Copyright 2022 Job Mentor</p>
       </footer>
     </div>
 

@@ -5,7 +5,7 @@
 
 
         <meta charset="utf-8" />
-        <title>Home | Jobcy</title>
+        <title>Home | Job Mentor</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -84,7 +84,7 @@
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
                                             your dream jobs with <span
-                                                class="text-primary fw-bold">Jobcy</span></h1>
+                                                class="text-primary fw-bold">Job Mentor</span></h1>
                                         <p class="lead text-muted mb-0">Find
                                             jobs, create trackable resumes and
                                             enrich your applications.Carefully
@@ -375,7 +375,7 @@
                                     <div class="section-title text-center mb-4
                                         pb-2">
                                         <h4 class="title text-primary">New  Jobs</h4>
-                                        <p class="text-muted fs-18 mb-1">The recent jobs that has posted.<br>Post a job to match you with right candidate with you.</p>
+                                        <p class="text-muted fs-18 mb-1">The recent jobs that has posted.<br>Post a job to match the right candidate with you.</p>
                                     </div>
                                 </div>
                                 <!--end col-->
@@ -898,7 +898,7 @@
     {{--                                                                        Manager</a></h5>--}}
     {{--                                                                <p--}}
     {{--                                                                    class="text-muted--}}
-    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    fs-14 mb-0">Job Mentor--}}
     {{--                                                                    Technology--}}
     {{--                                                                    Pvt.Ltd</p>--}}
     {{--                                                            </div>--}}
@@ -1398,7 +1398,7 @@
     {{--                                                                        Manager</a></h5>--}}
     {{--                                                                <p--}}
     {{--                                                                    class="text-muted--}}
-    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    fs-14 mb-0">Job Mentor--}}
     {{--                                                                    Technology--}}
     {{--                                                                    Pvt.Ltd</p>--}}
     {{--                                                            </div>--}}
@@ -1901,7 +1901,7 @@
     {{--                                                                        Manager</a></h5>--}}
     {{--                                                                <p--}}
     {{--                                                                    class="text-muted--}}
-    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    fs-14 mb-0">Job Mentor--}}
     {{--                                                                    Technology--}}
     {{--                                                                    Pvt.Ltd</p>--}}
     {{--                                                            </div>--}}
@@ -2406,7 +2406,7 @@
     {{--                                                                        Manager</a></h5>--}}
     {{--                                                                <p--}}
     {{--                                                                    class="text-muted--}}
-    {{--                                                                    fs-14 mb-0">Jobcy--}}
+    {{--                                                                    fs-14 mb-0">Job Mentor--}}
     {{--                                                                    Technology--}}
     {{--                                                                    Pvt.Ltd</p>--}}
     {{--                                                            </div>--}}

@@ -5,7 +5,7 @@
 
 
         <meta charset="utf-8" />
-        <title>Search | Jobcy</title>
+        <title>Search | Job Mentor</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -75,7 +75,7 @@
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
                                             your dream jobs with <span
-                                                class="text-primary fw-bold">Jobcy</span></h1>
+                                                class="text-primary fw-bold">Job Mentor</span></h1>
                                         <p class="lead text-muted mb-0">Find
                                             jobs, create trackable resumes and
                                             enrich your applications.Carefully

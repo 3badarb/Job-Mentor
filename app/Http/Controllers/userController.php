@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\job_user;
 use App\Models\User;
 use App\Models\job;
 
@@ -65,7 +66,7 @@ class userController extends Controller
             $model2=['salary'=>2,'evaluation'=>3];
 
         }
-        
+
         auth()->user()->model2()->Create($model2);
 
        return redirect('profile');
@@ -86,12 +87,31 @@ class userController extends Controller
             $model2=['salary'=>2,'evaluation'=>3];
 
         }
-        dd($response);
+
         auth()->user()->model2()->update($model2);
 
        return redirect('profile');
     }
+    public function rejectdjobs(){
 
+        //$s=auth()->user()->jobs()->wherePivot('reject',1)->get('name');
+
+        return view('rejected-jobs',[
+            'jobs'=>auth()->user()->jobs()->wherePivot('reject',1)->paginate(10)
+        ]);
+
+
+    }
+    public function why(\App\Models\job $job){
+        \App\Models\job_user::where('user_id',auth()->user()->id)->where('job_id',$job->id)->update(['seen'=>1]);
+        $why=\App\Models\job_user::where('user_id',auth()->user()->id)->where('job_id',$job->id)->value('why');
+
+        return view('why',['why'=>$why]);
+
+
+
+
+    }
 
 
 }

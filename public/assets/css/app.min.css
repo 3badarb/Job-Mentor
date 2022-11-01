@@ -684,6 +684,18 @@ body[data-layout-mode='dark'] .footer-alt {
     text-decoration:none;
     cursor: pointer;
 }
+.btn-1:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #e60026 !important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #314047;
+    text-decoration:none;
+    cursor: pointer;
+}
 
 .primary-link:hover {
   color: #0275d8 !important;

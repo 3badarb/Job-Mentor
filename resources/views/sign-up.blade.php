@@ -66,12 +66,14 @@
                                             <div class="col-lg-6 text-center
                                                 mt-5">
                                                 <div class="p-4 pt-0">
-                                                    <a href="index.blade.php">
+                                                    <a href="/index">
 
                                                         <img
                                                             src="./assets/images/logo-dark.png"
                                                             alt=""
-                                                            class="logo-dark">
+                                                            class="logo-dark"
+                                                            height="60"
+                                                        >
                                                     </a>
                                                     <p class="pt-3 fw-bold ms-4
                                                         text-center">Choose
@@ -114,7 +116,7 @@
                                                                 Up and get
                                                                 access to all
                                                                 the features of
-                                                                Jobcy</p>
+                                                                Job Mentor</p>
 
                                                         </div>
                                                         <div
@@ -139,7 +141,7 @@
                                                                         name="name"
                                                                         id="name"
                                                                         placeholder="Enter&nbsp;your&nbsp;Name"
-                                                                        value="{{old('name')}}">
+                                                                        >
                                                                 </div>
                                                                 <div
                                                                     class="mb-3">
@@ -153,7 +155,7 @@
                                                                         name="email"
                                                                         id="email"
                                                                         placeholder="Enter&nbsp;your&nbsp;Email"
-                                                                        value="{{old('email')}}">
+                                                                        >
                                                                 </div>
                                                                 <div
                                                                     class="mb-3">
@@ -192,6 +194,22 @@
                                                                         w-100">Sign Up
                                                                         </button>
                                                                 </div>
+                                                                <div class="pt-2">
+                                                                @if($errors->any())
+                                                                    @foreach($errors->all() as $error)
+                                                                        @if($error === "The email has already been taken.")
+                                                                            <p>
+                                                                                <small style="color: lightcoral">  You did sign before ,You have an account try to login</small>
+                                                                            </p>
+                                                                            @break
+                                                                        @else
+                                                                            <p>
+                                                                                <small style="color: lightcoral">{{$error}}</small>
+                                                                            </p>
+                                                                        @endif
+                                                                    @endforeach
+                                                                @endif
+                                                                </div>
                                                                 <div class="mt-3
                                                                     text-center">
                                                                     <p
@@ -206,23 +224,7 @@
                                                                             In
                                                                         </a></p>
                                                                 </div>
-                                                                @if($errors->any())
-                                                                    @foreach($errors->all() as $error)
 
-                                                                        <p>
-                                                                            <small style="color: red">
-
-                                                                                @if($error === "The email has already been taken.")
-                                                                                    You did sign before ,You have an account try to login
-                                                                                    @break
-                                                                                @else
-                                                                                    {{$error}}
-                                                                                @endif
-                                                                            </small>
-
-                                                                        </p>
-                                                                    @endforeach
-                                                                @endif
                                                                 </form>
 
 
@@ -295,21 +297,21 @@
                                                                         btn-hover
                                                                         w-100">Sign
                                                                         Up</button>
+                                                                </div>
+                                                                <div class="pt-2">
                                                                     @if($errors->any())
                                                                         @foreach($errors->all() as $error)
 
-                                                                            <p>
-                                                                                <small style="color: red">
-
-                                                                                    @if($error === "The email has already been taken.")
-                                                                                        You did sign before ,You have an account try to login
-                                                                                        @break
-                                                                                    @else
-                                                                                        {{$error}}
-                                                                                    @endif
-                                                                                </small>
-
-                                                                            </p>
+                                                                            @if($error === "The email has already been taken.")
+                                                                                <p>
+                                                                                    <small style="color: lightcoral">  You did sign before ,You have an account try to login</small>
+                                                                                </p>
+                                                                                @break
+                                                                            @else
+                                                                                <p>
+                                                                                    <small style="color: lightcoral">{{$error}}</small>
+                                                                                </p>
+                                                                            @endif
                                                                         @endforeach
                                                                     @endif
                                                                 </div>

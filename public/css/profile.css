@@ -37,7 +37,7 @@
   margin-right: 3em;
 }
 
-.anaCv {
+.Job Mentor {
   margin-left: 1em;
   margin-right: auto;
   margin-top: 0.2m;
@@ -50,7 +50,7 @@
   margin-right: 16em;
 }
 
-.anaCv img {
+.Job Mentor img {
   vertical-align: middle;
   margin-right: 0.2em;
 }
@@ -71,10 +71,10 @@
   margin: 0;
   padding: 0;
 }
-#anaCv {
+#Job Mentor {
   font-weight: 700;
 }
-#anaCv:hover {
+#Job Mentor:hover {
   color: #21286a;
 }
 

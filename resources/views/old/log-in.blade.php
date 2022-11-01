@@ -22,7 +22,7 @@
 
         <input type="submit" id="submit" value="Log In">
           @error('email')
-          <small style="color: red">
+          <small style="color: lightcoral">
 
               The email or password is wrong
           </small>

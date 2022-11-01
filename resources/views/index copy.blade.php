@@ -5,7 +5,7 @@
 
 
         <meta charset="utf-8" />
-        <title>Home | Jobcy</title>
+        <title>Home | Job Mentor</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -195,7 +195,7 @@
                                     <div class="text-center mb-4">
                                         <h5>Sign Up</h5>
                                         <p class="text-muted">Sign Up and get
-                                            access to all the features of Jobcy</p>
+                                            access to all the features of Job Mentor</p>
                                     </div>
                                     <form action="#" class="auth-form">
                                         <div class="mb-3">
@@ -275,7 +275,7 @@
                                             live jobs</h6>
                                         <h1 class="display-5 fw-semibold mb-3">Find
                                             your dream jobs with <span
-                                                class="text-primary fw-bold">Jobcy</span></h1>
+                                                class="text-primary fw-bold">Job Mentor</span></h1>
                                         <p class="lead text-muted mb-0">Find
                                             jobs, create trackable resumes and
                                             enrich your applications.Carefully
@@ -957,7 +957,7 @@
                                                                         Manager</a></h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Jobcy
+                                                                    fs-14 mb-0">Job Mentor
                                                                     Technology
                                                                     Pvt.Ltd</p>
                                                             </div>
@@ -1484,7 +1484,7 @@
                                                                         Manager</a></h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Jobcy
+                                                                    fs-14 mb-0">Job Mentor
                                                                     Technology
                                                                     Pvt.Ltd</p>
                                                             </div>
@@ -1992,7 +1992,7 @@
                                                                         Manager</a></h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Jobcy
+                                                                    fs-14 mb-0">Job Mentor
                                                                     Technology
                                                                     Pvt.Ltd</p>
                                                             </div>
@@ -2503,7 +2503,7 @@
                                                                         Manager</a></h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Jobcy
+                                                                    fs-14 mb-0">Job Mentor
                                                                     Technology
                                                                     Pvt.Ltd</p>
                                                             </div>
@@ -3016,7 +3016,7 @@
                                                                         Manager</a></h5>
                                                                 <p
                                                                     class="text-muted
-                                                                    fs-14 mb-0">Jobcy
+                                                                    fs-14 mb-0">Job Mentor
                                                                     Technology
                                                                     Pvt.Ltd</p>
                                                             </div>
@@ -3464,7 +3464,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="footer-item mt-4 mt-lg-0 me-lg-5">
-                                    <h4 class="text-white mb-4">Jobcy</h4>
+                                    <h4 class="text-white mb-4">Job Mentor</h4>
                                     <p class="text-white-50">It is a long
                                         established fact that a reader will be
                                         of a page reader will be of at its
@@ -3562,7 +3562,7 @@
                                     <script>
                                     document.write(new Date().getFullYear())
                                 </script>
-                                    &copy; Jobcy - All Rights Reserved
+                                    &copy; Job Mentor - All Rights Reserved
                                 </p>
                             </div>
                             <!--end col-->

@@ -31,7 +31,7 @@
               @foreach($errors->all() as $error)
 
               <p>
-                  <small style="color: red">
+                  <small style="color: lightcoral">
 
                       @if($error === "The email has already been taken.")
                           You did sign before ,You have an account try to login

@@ -125,34 +125,60 @@
                                                         class="flex-shrink-0
                                                         position-relative">
                                                         <img
-                                                            src="{{asset("storage/".$user->userinfo->avatar)}}"
+                                                            src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
                                                             alt=""
                                                             class="avatar-md
                                                             rounded">
 
                                                     </div>
                                                     <div class="ms-3">
+                                                        @if($user->userpdf()->exists())
+                                                            <a>
+                                                        @else
                                                         <a
-                                                            href="/candidate-details/{{$user->id}}"
+                                                            href="/candidate-details/{{$user->id}}/{{$job_id}}"
                                                             class="primary-link">
+                                                            @endif
                                                             <h5
                                                                 class="fs-17 pt-4">{{$user->name}}</h5>
                                                         </a>
+
                                                     </div>
+
                                                 </div>
                                                 <div class="border rounded
                                                     mb-4">
                                                 </div>
-                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
+                                                <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
+                                                    @if($user->userpdf()->exists())
+
+                                                            <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                        href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>  His CV</a>
+                                                        <form method="post" action="/reject/{{$user->id}}/{{$job_id}}">
+                                                            @csrf
+
+                                                            <button
+                                                                class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"><i class="iconify " data-icon="bi:person-x-fill" style="color: white;" data-width="24"></i>
+                                                                Reject</button>
+                                                        </form>
+                                                    @else
                                                     <a
-                                                        href="/candidate-details/{{$user->id}}"
+                                                        href="/candidate-details/{{$user->id}}/{{$job_id}}"
                                                         class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
                                                         View Profile</a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -170,7 +196,7 @@
                                                         class="flex-shrink-0
                                                         position-relative">
                                                         <img
-                                                            src="{{asset("storage/".$user->userinfo->avatar)}}"
+                                                            src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
                                                             alt=""
                                                             class="avatar-md
                                                             rounded">
@@ -183,13 +209,16 @@
                                                                 class="visually-hidden">active</span></span> -->
                                                     </div>
                                                     <div class="ms-3">
-                                                        <a
-                                                            href="/candidate-details/{{$user->id}}"
-                                                            class="primary-link">
-                                                            <h5
-                                                                class="fs-17 pt-4">{{$user->name}}</h5>
-                                                        </a>
-
+                                                        @if($user->userpdf()->exists())
+                                                            <a>
+                                                                @else
+                                                                    <a
+                                                                        href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                        class="primary-link">
+                                                                        @endif
+                                                                        <h5
+                                                                            class="fs-17 pt-4">{{$user->name}}</h5>
+                                                                    </a>
                                                     </div>
                                                 </div>
 
@@ -198,17 +227,37 @@
 
                                                     <!--end row-->
                                                 </div>
-                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
+                                                <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
 
-                                                    <a
-                                                        href="/candidate-details/{{$user->id}}"
-                                                        class="btn
+                                                    @if($user->userpdf()->exists())
+
+                                                        <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                           href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>His CV</a>
+                                                        <form method="post" action="/reject/{{$user->id}}/{{$job_id}}">
+                                                            @csrf
+
+                                                            <button
+                                                                class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"><i class="iconify " data-icon="bi:person-x-fill" style="color: white;" data-width="24"></i>
+                                                                Reject</button>
+                                                        </form>
+                                                    @else
+                                                        <a
+                                                            href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                            class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
-                                                        View Profile</a>
+                                                            View Profile</a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -229,19 +278,24 @@
                                                         class="flex-shrink-0
                                                         position-relative">
                                                         <img
-                                                            src="{{asset("storage/".$user->userinfo->avatar)}}"
+                                                            src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
                                                             alt=""
                                                             class="avatar-md
                                                             rounded">
 
                                                     </div>
                                                     <div class="ms-3">
-                                                        <a
-                                                            href="/candidate-details/{{$user->id}}"
-                                                            class="primary-link">
-                                                            <h5
-                                                                class="fs-17 pt-4">{{$user->name}}</h5>
-                                                        </a>
+                                                        @if($user->userpdf()->exists())
+                                                            <a>
+                                                                @else
+                                                                    <a
+                                                                        href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                        class="primary-link">
+                                                                        @endif
+                                                                        <h5
+                                                                            class="fs-17 pt-4">{{$user->name}}</h5>
+                                                                    </a>
+
 
                                                     </div>
                                                 </div>
@@ -251,16 +305,36 @@
 
                                                     <!--end row-->
                                                 </div>
-                                                <p class="text-muted">{{$user->userinfo->about_me}}</p>
+                                                <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
                                                 <div class="mt-3">
-                                                    <a
-                                                        href="/candidate-details/{{$user->id}}"
-                                                        class="btn
+                                                    @if($user->userpdf()->exists())
+
+                                                        <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                           href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>His CV</a>
+                                                        <form method="post" action="/reject/{{$user->id}}/{{$job_id}}">
+                                                            @csrf
+
+                                                            <button
+                                                                class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"><i class="iconify " data-icon="bi:person-x-fill" style="color: white;" data-width="24"></i>
+                                                                Reject</button>
+                                                        </form>
+                                                    @else
+                                                        <a
+                                                            href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                            class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
-                                                        View Profile</a>
+                                                            View Profile</a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>

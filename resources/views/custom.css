@@ -15,4 +15,10 @@
   border: 1px solid #0275d8;
   color: #0275d8;
 }
+.keke{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 

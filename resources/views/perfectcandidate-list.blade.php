@@ -113,168 +113,213 @@
                                 <div class="row">
                                     @forelse($users as $user)
                                         @if($loop->index % 3 === 0)
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="candidate-grid-box
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="candidate-grid-box
                                             bookmark-post card mt-4">
-                                            <div class="card-body p-4">
-                                                <div class="featured-label">
-                                                    <!-- <span class="featured">featured</span> -->
-                                                </div>
-                                                <div class="d-flex mb-4">
-                                                    <div
-                                                        class="flex-shrink-0
+                                                    <div class="card-body p-4">
+                                                        <div class="featured-label">
+                                                            <!-- <span class="featured">featured</span> -->
+                                                        </div>
+                                                        <div class="d-flex mb-4">
+                                                            <div
+                                                                class="flex-shrink-0
                                                         position-relative">
-                                                        <img
-                                                            src="{{asset("storage/".$user->avatar)}}"
-                                                            alt=""
-                                                            class="avatar-md
+                                                                <img
+                                                                    src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
+                                                                    alt=""
+                                                                    class="avatar-md
                                                             rounded">
 
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <a
-                                                            href="/candidate-details/{{$user->user->id}}"
-                                                            class="primary-link">
-                                                            <h5
-                                                                class="fs-17">{{$user->user->name}}</h5>
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                                            </div>
+                                                            <div class="ms-3">
+                                                                @if($user->userpdf()->exists())
+                                                                    <a>
+                                                                        @else
+                                                                            <a
+                                                                                href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                                class="primary-link">
+                                                                                @endif
+                                                                                <h5
+                                                                                    class="fs-17 pt-4">{{$user->name}}</h5>
+                                                                            </a>
 
-                                                <div class="border rounded
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="border rounded
                                                     mb-4">
+                                                        </div>
+                                                        <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
+                                                        <div class="mt-3">
+                                                            @if($user->userpdf()->exists())
 
-                                                </div>
-                                                <p class="text-muted">{{$user->about_me}}</p>
-                                                <div class="mt-3">
-                                                    <a
-                                                        href="/candidate-details/{{$user->user->id}}"
-                                                        class="btn
+                                                                <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                                   href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>  His CV</a>
+
+                                                            @else
+                                                                <a
+                                                                    href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                    class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
-                                                        View Profile</a>
+                                                                    View Profile</a>
+                                                            @endif
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <!--end card-->
                                             </div>
-                                        </div>
-                                        <!--end card-->
-                                    </div>
-                                    <!--end col-->
-                                    @endif
-                                    @if($loop->index % 3 === 1)
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="candidate-grid-box
+                                            <!--end col-->
+                                        @endif
+                                        @if($loop->index % 3 === 1)
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="candidate-grid-box
                                             bookmark-post card mt-4">
-                                            <div class="card-body p-4">
-                                                <div class="d-flex mb-4">
-                                                    <div
-                                                        class="flex-shrink-0
+                                                    <div class="card-body p-4">
+                                                        <div class="d-flex mb-4">
+                                                            <div
+                                                                class="flex-shrink-0
                                                         position-relative">
-                                                        <img
-                                                            src="{{asset("storage/".$user->avatar)}}"
-                                                            alt=""
-                                                            class="avatar-md
+                                                                <img
+                                                                    src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
+                                                                    alt=""
+                                                                    class="avatar-md
                                                             rounded">
-                                                        <!-- <span
-                                                            class="profile-active
-                                                            position-absolute
-                                                            badge
-                                                            rounded-circle
-                                                            bg-success"><span
-                                                                class="visually-hidden">active</span></span> -->
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <a
-                                                            href="/candidate-details/{{$user->user->id}}"
-                                                            class="primary-link">
-                                                            <h5
-                                                                class="fs-17">{{$user->user->name}}</h5>
-                                                        </a>
+                                                                <!-- <span
+                                                                    class="profile-active
+                                                                    position-absolute
+                                                                    badge
+                                                                    rounded-circle
+                                                                    bg-success"><span
+                                                                        class="visually-hidden">active</span></span> -->
+                                                            </div>
+                                                            <div class="ms-3">
+                                                                @if($user->userpdf()->exists())
+                                                                    <a>
+                                                                        @else
+                                                                            <a
+                                                                                href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                                class="primary-link">
+                                                                                @endif
+                                                                                <h5
+                                                                                    class="fs-17 pt-4">{{$user->name}}</h5>
+                                                                            </a>
+                                                            </div>
+                                                        </div>
 
-                                                    </div>
-                                                </div>
-
-                                                <div class="border rounded
+                                                        <div class="border rounded
                                                     mb-4">
 
-                                                    <!--end row-->
-                                                </div>
-                                                <p class="text-muted">{{$user->about_me}}</p>
-                                                <div class="mt-3">
+                                                            <!--end row-->
+                                                        </div>
+                                                        <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
+                                                        <div class="mt-3">
 
-                                                    <a
-                                                        href="/candidate-details/{{$user->user->id}}"
-                                                        class="btn
+                                                            @if($user->userpdf()->exists())
+
+                                                                <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                                   href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>His CV</a>
+
+                                                            @else
+                                                                <a
+                                                                    href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                    class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
-                                                        View Profile</a>
+                                                                    View Profile</a>
+                                                            @endif
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <!--end card-->
                                             </div>
-                                        </div>
-                                        <!--end card-->
-                                    </div>
-                                    @endif
-                                    @if($loop->index % 3 ===2)
-                                    <!--end col-->
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="candidate-grid-box card
+                                        @endif
+                                        @if($loop->index % 3 ===2)
+                                        <!--end col-->
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="candidate-grid-box card
                                             mt-4">
-                                            <div class="card-body p-4">
-                                                <div class="featured-label">
+                                                    <div class="card-body p-4">
+                                                        <div class="featured-label">
 
-                                                </div>
-                                                <div class="d-flex mb-4">
-                                                    <div
-                                                        class="flex-shrink-0
+                                                        </div>
+                                                        <div class="d-flex mb-4">
+                                                            <div
+                                                                class="flex-shrink-0
                                                         position-relative">
-                                                        <img
-                                                            src="{{asset("storage/".$user->avatar)}}"
-                                                            alt=""
-                                                            class="avatar-md
+                                                                <img
+                                                                    src="{{$user->userpdf()->exists() ?  asset("storage/".$user->userpdf->avatar) :asset("storage/".$user->userinfo->avatar)}}"
+                                                                    alt=""
+                                                                    class="avatar-md
                                                             rounded">
 
-                                                    </div>
-                                                    <div class="ms-3">
-                                                        <a
-                                                            href="/candidate-details/{{$user->user->id}}"
-                                                            class="primary-link">
-                                                            <h5
-                                                                class="fs-17">{{$user->user->name}}</h5>
-                                                        </a>
+                                                            </div>
+                                                            <div class="ms-3">
+                                                                @if($user->userpdf()->exists())
+                                                                    <a>
+                                                                        @else
+                                                                            <a
+                                                                                href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                                class="primary-link">
+                                                                                @endif
+                                                                                <h5
+                                                                                    class="fs-17 pt-4">{{$user->name}}</h5>
+                                                                            </a>
 
-                                                    </div>
-                                                </div>
 
-                                                <div class="border rounded
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="border rounded
                                                     mb-4">
 
-                                                    <!--end row-->
-                                                </div>
-                                                <p class="text-muted">{{$user->about_me}}</p>
-                                                <div class="mt-3">
-                                                    <a
-                                                        href="/candidate-details/{{$user->user->id}}"
-                                                        class="btn
+                                                            <!--end row-->
+                                                        </div>
+                                                        <p class="text-muted">{{$user->userpdf()->exists() ? $user->userpdf->about_me : $user->userinfo->about_me}}</p>
+                                                        <div class="mt-3">
+                                                            @if($user->userpdf()->exists())
+
+                                                                <a class="btn
+                                                               btn-soft-primary
+                                                               btn-hover w-100
+                                                               mt-2"
+                                                                   href="{{asset("storage/".$user->userpdf->file)}}" ><i class="uil
+                                                            uil-eye"></i>His CV</a>
+
+                                                            @else
+                                                                <a
+                                                                    href="/candidate-details/{{$user->id}}/{{$job_id}}"
+                                                                    class="btn
                                                         btn-soft-primary
                                                         btn-hover w-100
                                                         mt-2"><i class="uil
                                                             uil-eye"></i>
-                                                        View Profile</a>
+                                                                    View Profile</a>
+                                                            @endif
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <!--end card-->
                                             </div>
-                                        </div>
-                                        <!--end card-->
-                                    </div>
-                                    <!--end col-->
-                                    @endif
+                                            <!--end col-->
+                                        @endif
                                     <!--end row-->
                                     @empty
                                         <div class="">
                                             <h1
-                                                class="text-center">No Appliers Yet.</h1>
+                                                class="text-center">No Candidates Yet.</h1>
                                         </div>
 
                                 @endforelse

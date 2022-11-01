@@ -89,7 +89,7 @@
                                                         <p
                                                             class="text-white-50">Reset
                                                             your password with
-                                                            Jobcy.</p>
+                                                            Job Mentor.</p>
                                                     </div>
                                                     <form class="auth-form
                                                         text-white">

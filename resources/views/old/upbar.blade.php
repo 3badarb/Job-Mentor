@@ -3,7 +3,7 @@
     <ul class="nav">
 
         <li class="logo">
-            <a href="/" class="allLinks" id="firstlink">AnaCV</a>
+            <a href="/" class="allLinks" id="firstlink">Job Mentor</a>
         </li>
 
         <li><a href="/" class="allLinks">HOME</a></li>

@@ -3,7 +3,7 @@
         <div class="row justify-content-xl-center">
             <div class="col-lg-4">
                 <div class="footer-item mt-4 mt-lg-0 me-lg-5">
-                    <h4 class="text-white mb-4">Jobcy</h4>
+                    <h4 class="text-white mb-4">Job Mentor</h4>
                     <p class="text-white-50">It is a long
                         established fact that a reader will be
                         of a page reader will be of at its
@@ -90,7 +90,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script>
-                    &copy; Jobcy - All Rights Reserved
+                    &copy; Job Mentor - All Rights Reserved
                 </p>
             </div>
             <!--end col-->

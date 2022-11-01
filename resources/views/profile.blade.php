@@ -296,7 +296,7 @@
                                                         <h6 class="fs-18 fw-bold
                                                             mb-0">Education</h6>
                                                         <p class="mb-2 mt-4 m-lg-4
-                                                        text-muted">{{$info->education}}</p>
+                                                        text-muted" style="white-space: pre-line;">{{$info->education}}</p>
                                                     </div>
                                                     <div
                                                         class="candidate-education-details
@@ -304,7 +304,7 @@
                                                         <h6 class="fs-18 fw-bold
                                                             mb-0">Experiences</h6>
                                                         <p class="mb-2 mt-4 m-lg-4
-                                                        text-muted">
+                                                        text-muted" style="white-space: pre-line;">
                                                             {{$info->expirence}}
                                                         </p>
                                                     </div>
@@ -313,7 +313,7 @@
                                                         <h5 class="fs-18
                                                             fw-bold">Skills</h5>
                                                         <p class="mb-2 mt-4 m-lg-4
-                                                        text-muted">
+                                                        text-muted" style="white-space: pre-line;">
                                                             {{$info->skills}}   </p>                                                     </p>
 
 
@@ -427,7 +427,7 @@
                                                                 @foreach($errors->all() as $error)
 
                                                                     <p>
-                                                                        <small style="color: red">
+                                                                        <small style="color: lightcoral">
 
                                                                             {{$error}}
 
@@ -715,7 +715,7 @@
                                                                 <label
                                                                     for="jobtilte"
                                                                     class="form-label"></label>
-                                                                <label for="yoe">Years of experience</label>
+                                                                <label for="yoe">Years of Experience</label>
                                                         <br>
 
                                                         <select class="form-select form-select-sm" name="yoe" id="yoe" aria-label=".form-select-sm example">
@@ -760,7 +760,7 @@
                                                         class="candidate-education-details
                                                         mt-0">
                                                         <h6 class="fs-18 fw-bold
-                                                            mb-0 ">The digest of your CV is</h6>
+                                                            mb-0 ">The Summary of your CV is</h6>
                                                         <p class="mb-2 mt-4 m-lg-4 fw-bold fs-16
                                                         text-muted">{{$info->about_me}}</p>
 
@@ -772,9 +772,9 @@
                                                             class="candidate-education-details
                                                         mt-4">
                                                             <h6 class="fs-18 fw-bold
-                                                            mb-0">Expecting Salary is</h6>
+                                                            mb-0">Estimation Salary is</h6>
                                                             <p class="mb-2 mt-4 m-lg-4
-                                                        text-muted">{{auth()->user()->model2->salary}}</p>
+                                                        text-muted">{{round(auth()->user()->model2->salary,-4)-(15*round(auth()->user()->model2->salary,-4)/100)}} - {{round(auth()->user()->model2->salary,-4)+(15*round(auth()->user()->model2->salary,-4)/100)}}</p>
                                                         </div>
                                                         <div
                                                             class="candidate-education-details
@@ -835,7 +835,7 @@
         <script>
             $('.my-rating').starRating({
                 readOnly: true,
-                totalStars: 10,
+                totalStars: 5,
 
                 emptyColor: 'lightgray',
                 hoverColor: 'salmon',

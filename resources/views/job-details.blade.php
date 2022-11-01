@@ -178,7 +178,7 @@
 
                                                     <p class="job-detail-list
                                                         list-unstyled mb-0
-                                                        text-muted">{{$job->requirement}}
+                                                        text-muted" style="white-space: pre-line;">{{$job->requirement}}
                                                     </p>
                                                 </div>
                                             </div>
@@ -189,7 +189,7 @@
                                                 <div class="job-details-desc mb-2">
                                                     <p class="job-detail-list
                                                         list-unstyled mb-0
-                                                        text-muted">
+                                                        text-muted"style="white-space: pre-line;" >
                                                         {{$job->expirence}}
                                                     </p>
 
@@ -283,7 +283,7 @@
                                                     @endif
                                                     @if(\App\Http\Controllers\jobController::checkapply($job->id) )
                                                         <div class="mt-3 text-center text-success">
-                                                            <p>
+                                                            <p style="color: #1a72cb">
                                                                 You have applied for this job.</p>
                                                         </div>
                                                     @endif

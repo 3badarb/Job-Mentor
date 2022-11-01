@@ -294,7 +294,7 @@
                                                         btn-primary
                                                         btn-hover w-100
                                                         rounded"><i class="iconify mb-1 mx-sm-1 uil-align-left" data-icon="icon-park-outline:good-two" data-width="20"></i>
-                                                            The PERFECT ones for you</button>
+                                                            The PERFECT one's for you</button>
                                                     </form>
                                                 </div>
                                             </div>

@@ -23,6 +23,9 @@ return new class extends Migration
                 ->references('id')
                 ->on('jobs')
                 ->onDelete('cascade');
+            $table->boolean('reject')->default(0);
+            $table->text('why')->nullable();
+            $table->boolean('seen')->default(0);
             $table->timestamps();
         });
     }

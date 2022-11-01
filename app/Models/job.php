@@ -17,7 +17,7 @@ class job extends Model
     }
     public function users(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
-        return $this->belongsToMany(User::class)->withTimestamps();
+        return $this->belongsToMany(User::class)->withPivot('reject')->withTimestamps();
     }
 
 

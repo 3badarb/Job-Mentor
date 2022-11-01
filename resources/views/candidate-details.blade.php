@@ -112,6 +112,29 @@
 
                                             </div>
                                         </div>
+                                        @if(\App\Models\job_user::where('job_id',$job_id)->where('user_id',$user->id)->value('reject') === 0)
+                                            <div class="card-body p-4">
+                                                <div>
+                                                    <form method="post" action="/reject/{{$user->id}}/{{$job_id}}">
+                                                        @csrf
+
+                                                        <button
+                                                            class="btn
+                                                        btn-primary
+                                                        btn-hover w-100
+                                                        rounded"><i class="iconify" data-icon="bi:person-x-fill" style="color: white;" data-width="24"></i>
+                                                            Reject</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        @else
+                                            <div class="card-body p-4">
+                                                <div>
+                                                    <h4 class="fs-15
+                                                                mb-1" style="color: #1a72cb">You Reject This Applier</h4>
+                                                </div>
+                                            </div>
+                                    @endif
                                         <!--end candidate-profile-->
                                         <!--candidate-profile-overview-->
                                         <!--end card-body-->
@@ -156,6 +179,7 @@
                                                         </div>
                                                     </div>
                                                 </li>
+
                                                 <li>
                                                     <div class="d-flex
                                                         align-items-center
@@ -163,7 +187,7 @@
                                                         <div class="icon
                                                             bg-soft-primary
                                                             flex-shrink-0">
-                                                            <span class="iconify" data-icon="icon-park-outline:international" style="color: blue;"></span>
+                                                            <span class="iconify" data-icon="icon-park-outline:international" ></span>
                                                         </div>
                                                         <div class="ms-3">
                                                             <h6 class="fs-14
@@ -198,7 +222,7 @@
                                                         <div class="icon
                                                             bg-soft-primary
                                                             flex-shrink-0">
-                                                            <span class="iconify" data-icon="cil:birthday-cake" style="color: blue;"></span>
+                                                            <span class="iconify" data-icon="cil:birthday-cake" ></span>
                                                         </div>
                                                         <div class="ms-3">
                                                             <h6 class="fs-14
@@ -211,8 +235,11 @@
 
                                             </ul>
                                         </div>
+
                                         <!--end candidate-overview-->
                                     </div>
+
+
                                     <!--end card-->
                                 </div>
                                 <!--end col-->
@@ -225,14 +252,14 @@
                                             <div>
                                                 <h6 class="fs-17 fw-semibold
                                                     mb-3">About me</h6>
-                                                <p class="text-muted mb-2">{{$info->about_me}}</p>
+                                                <p class="text-muted mb-2" style="white-space: pre-line;">{{$info->about_me}}</p>
                                             </div>
                                             <br/>
 
                                             <div>
                                                 <h6 class="fs-17 fw-semibold
                                                     mb-3">Education</h6>
-                                                <p class="text-muted mb-2">{{$info->education}}</p>
+                                                <p class="text-muted mb-2" style="white-space: pre-line;">{{$info->education}}</p>
                                             </div>
 
 
@@ -246,14 +273,14 @@
 
 
                                                         <p class="mb-2
-                                                            text-muted">{{$info->expirence}}</p>
+                                                            text-muted" style="white-space: pre-line;">{{$info->expirence}}</p>
                                                     </div>
                                                 </div>
                                              <div class="mt-4">
                                                         <h5 class="fs-18
                                                             fw-bold">Skills</h5>
                                                         <p class="mb-2
-                                                            text-muted">{{$info->skills}}</p>
+                                                            text-muted" style="white-space: pre-line;">{{$info->skills}}</p>
 
                                                     </div>
                                              </div>

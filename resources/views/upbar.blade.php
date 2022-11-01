@@ -3,7 +3,7 @@
     <div class="container-fluid custom-container" >
         <a class="navbar-brand text-dark fw-bold me-auto"
            href="/index">
-            <img src="{{asset("./assets/images/logo-dark.png")}}" height="22"
+            <img src="{{asset("./assets/images/logo-dark.png")}}" height="50"
                  alt="" class="logo-dark" />
             <img class="logo-light"
                  alt=""
@@ -102,29 +102,61 @@
                     <a href="javascript:void(0)" class="header-item"
                        id="userdropdown" data-bs-toggle="dropdown">
                         @if(auth()->user()->tag==='U')
-                            <img src="{{asset("storage/".auth()->user()->userinfo->avatar)}}"
-                                 width="35" height="35" class="rounded-circle
+                            @if(auth()->user()->userpdf()->exists())
+                            <img src="{{asset("storage/".auth()->user()->userpdf->avatar)}}"
+                                 height="45"  class="rounded-circle
                             me-1"
                             alt="">
+                            @else
+                                <img src="{{asset("storage/".auth()->user()->userinfo->avatar)}}"
+                                     height="45"  class="rounded-circle
+                            me-1"
+                                     alt="">
+                            @endif
                         @elseif(auth()->user()->tag==='C')
+
                             <img src="{{asset("storage/".auth()->user()->companyinfo->avatar)}}"
-                                 width="35" height="35" class="rounded-circle
+                                   height="40" class="rounded-circle
                             me-1" alt="">
                         @endif
 
                         <span class="d-none d-md-inline-block fw-bold
-                                   ">Hi, {{auth()->user()->name}}</span>
+                                   ">Hi, {{auth()->user()->name}} </span>
+
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end"
                         aria-labelledby="userdropdown">
-                        <li>@if(auth()->user()->tag==='U')
+                        @if(auth()->user()->tag==='U')
+                            @if(auth()->user()->userpdf()->exists())
+                            <li>
                                 <a class="dropdown-item"
-                               href="/profile">My Profile</a>
+                                   href="/profilepdf">My Profile</a>
+                            </li>
+                            @else
+                                <li>
+                                    <a class="dropdown-item"
+                                       href="/profile">My Profile</a>
+                                </li>
+                            @endif
+                            <li>
+                                <a class="dropdown-item"
+                                   href="/notification">Notification
+                                    @if(auth()->user()->tag==='U' and
+                            App\Models\job_user::where('user_id',auth()->user()->id)->where('reject',1)->exists()
+                                and App\Models\job_user::where('user_id',auth()->user()->id)->where('seen',0)->exists())
+                                        <i class="iconify" data-icon="carbon:dot-mark" style="color: #c10;" ></i>
+
+                                    @endif
+                                </a>
+
+                            </li>
                             @elseif(auth()->user()->tag==='C')
+                            <li>
                                 <a class="dropdown-item"
                                    href="/profileCompany">My Profile</a>
+                            </li>
                             @endif
-                        </li>
+
                         <li><form method="post" action="/log-out">
                                 @csrf
                                 <button  class="dropdown-item"
@@ -154,4 +186,5 @@
     </div>
     <!--end container-->
 </nav>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 <!-- Navbar End -->

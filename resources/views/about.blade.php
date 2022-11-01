@@ -12,7 +12,7 @@
         <meta content="Themesdesign" name="author" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="./assets/images/favicon.ico">
+        <link rel="shortcut icon" href="./assets/images/favicon.png">
 
         <!-- Bootstrap Css -->
         <link href="./assets/css/bootstrap.min.css" id="bootstrap-style"
@@ -176,7 +176,7 @@
                                     <div class="text-center mb-4">
                                         <h5>Sign Up</h5>
                                         <p class="text-muted">Sign Up and get
-                                            access to all the features of Jobcy</p>
+                                            access to all the features of Job Mentor</p>
                                     </div>
                                     <form action="#" class="auth-form">
                                         <div class="mb-3">
@@ -288,10 +288,10 @@
                                         <h6 class="sub-title">About Us</h6>
                                         <h2 class="title mb-4">Why <span
                                                 class="text-warning fw-bold">35,000+</span>
-                                            People Trust On Jobcy?</h2>
+                                            People Trust On Job Mentor?</h2>
 
                                         <p class="text-muted">Start working with
-                                            Jobcy that can provide everything
+                                            Job Mentor that can provide everything
                                             you need to generate awareness,
                                             drive traffic, connect. Dummy text
                                             is text that is used in the
@@ -357,7 +357,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="footer-item mt-4 mt-lg-0 me-lg-5">
-                                    <h4 class="text-white mb-4">Jobcy</h4>
+                                    <h4 class="text-white mb-4">Job Mentor</h4>
                                     <p class="text-white-50">It is a long
                                         established fact that a reader will be
                                         of a page reader will be of at its
@@ -455,7 +455,7 @@
                                     <script>
                                     document.write(new Date().getFullYear())
                                 </script>
-                                    &copy; Jobcy - All Rights Reserved
+                                    &copy; Job Mentor - All Rights Reserved
                                 </p>
                             </div>
                             <!--end col-->

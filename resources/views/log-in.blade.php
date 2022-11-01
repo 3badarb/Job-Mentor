@@ -67,11 +67,17 @@
                                                         <img
                                                             src="{{asset("./assets/images/logo-light.png")}}"
                                                             alt=""
-                                                            class="logo-light">
+                                                            class="logo-light"
+                                                        width="44"
+                                                        height="44">
                                                         <img
                                                             src="{{asset("./assets/images/logo-dark.png")}}"
                                                             alt=""
-                                                            class="logo-dark">
+                                                            class="logo-dark pt-2"
+                                                            height="70"
+                                                        >
+{{--                                                            width="300"--}}
+{{--                                                            height="80">--}}
                                                     </a>
                                                     <div class="mt-5">
                                                         <img
@@ -93,7 +99,7 @@
                                                             <p
                                                                 class="text-white-70">Sign
                                                                 in to continue
-                                                                to Jobcy.</p>
+                                                                to Job Mentor.</p>
                                                         </div>
                                                         @error('email')
                                                             <div class="text-center

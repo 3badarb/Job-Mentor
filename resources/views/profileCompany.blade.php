@@ -97,7 +97,8 @@
                                                 border-bottom">
                                                 <img
                                                     src="{{asset("storage/".$info->avatar)}}"
-                                                    alt="" class="avatar-lg
+                                                    alt=""
+                                                    class="avatar-lg
                                                     img-thumbnail rounded-circle
                                                     mb-4" />
                                                 <h5 class="mb-0">{{$user->name}}</h5>
@@ -140,7 +141,7 @@
                                                             <label
                                                                 class="text-dark">Website</label>
                                                             <div>
-                                                                <p  type="url"
+                                                                <p
                                                                     class="text-muted
                                                                     text-break
                                                                     mb-0">{{$info->website}}</p>
@@ -241,7 +242,7 @@
                                                         <h5 class="fs-18
                                                             fw-bold">About</h5>
                                                         <p class="text-muted
-                                                            mt-4">
+                                                            mt-4" style="white-space: pre-line;">
                                                             {{$info->about_us}}
                                                         </p>
 
@@ -402,7 +403,7 @@
                                                                             class="mb-3">
                                                                             <label
                                                                                 for="about_us"
-                                                                                class="form-label">About Your Company
+                                                                                class="form-label">About Yofur Company
                                                                             </label>
                                                                             <textarea
                                                                                 class="form-control"
@@ -423,7 +424,7 @@
                                                                                 class="form-label">Website
                                                                             </label>
                                                                             <input
-                                                                                type="url"
+
                                                                                 class="form-control"
                                                                                 id="website"
                                                                                 name="website"
@@ -488,7 +489,7 @@
                                                                 @foreach($errors->all() as $error)
 
                                                                     <p>
-                                                                        <small style="color: red">
+                                                                        <small style="color: lightcoral">
 
                                                                             {{$error}}
 
@@ -571,7 +572,7 @@
                                                                             none;"
                                                                             name="description"
                                                                             required
-                                                                            rows="5"></textarea>
+                                                                            rows="7"></textarea>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -588,7 +589,7 @@
                                                                             required
                                                                             style="resize:
                                                                             none;"
-                                                                            rows="5"></textarea>
+                                                                            rows="7"></textarea>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -597,7 +598,7 @@
                                                                         class="mb-3">
                                                                         <label
                                                                             for="expirence"
-                                                                            class="form-label">Experience</label>
+                                                                            class="form-label">Required Skills</label>
                                                                         <textarea
                                                                             class="form-control"
                                                                             id="expirence"
@@ -608,6 +609,34 @@
                                                                             rows="5"></textarea>
                                                                     </div>
                                                                 </div>
+                                                                <div
+                                                                    class="col-lg-6">
+                                                                    <div
+                                                                        class="mb-3">
+                                                                        <label
+                                                                            for="jobtilte"
+                                                                            class="form-label"></label>
+                                                                        <label for="yoe">Years of Experience</label>
+                                                                        <br>
+
+                                                                        <select class="form-select form-select-sm" name="yoe" id="yoe" aria-label=".form-select-sm example">
+                                                                            <option value="" selected disabled hidden>{{$yoe ?? 'choose'}}</option>
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                        </select>
+
+                                                                    </div>
+                                                                </div>
+
+
 
 
                                                                 <!--end col-->
@@ -619,14 +648,14 @@
 
                                                         <div class="mt-4
                                                             text-end">
-                                                            <button class="btn btn-primary" type="submit">Save</button>
+                                                            <button class="btn btn-primary" type="submit">Post</button>
 
                                                         </div>
                                                         @if($errors->any())
                                                             @foreach($errors->all() as $error)
 
                                                                 <p>
-                                                                    <small style="color: red">
+                                                                    <small style="color: lightcoral">
 
                                                                         {{$error}}
 

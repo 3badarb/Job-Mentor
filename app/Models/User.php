@@ -48,6 +48,10 @@ class User extends Authenticatable
 
      return $this->hasOne(userinfo::class);
  }
+    public  function userpdf(){
+
+        return $this->hasOne(pdf::class);
+    }
 
 public function companyinfo(){
 
@@ -60,7 +64,7 @@ public function companyinfo(){
 
     public function jobs(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
-     return $this->belongsToMany(job::class)->withTimestamps();
+     return $this->belongsToMany(job::class)->withPivot('reject')->withTimestamps();
     }
     public function model2(){
 

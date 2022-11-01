@@ -141,7 +141,7 @@
                                                                 @foreach($errors->all() as $error)
 
                                                                     <p>
-                                                                        <small style="color: red">
+                                                                        <small style="color: lightcoral">
 
                                                                             {{$error}}
 

@@ -18,7 +18,9 @@ class SignController extends Controller
 {
     //
     protected string $portmodel1='http://192.168.43.156:3000/model1';
-    protected string $portmodel2='http://192.168.43.156:3000/modle2';
+    protected string $portmodel2='http://192.168.43.156:3000/model2';
+    protected string $portsummary='http://192.168.43.156:3000/summary';
+
 
     public function signAsUser(){
 
@@ -29,7 +31,7 @@ class SignController extends Controller
 
             $user = User::create($attributes);
             auth()->login($user);
-            return redirect('/continue-user');
+            return redirect('/continue-user0');
 
     }
 
@@ -62,21 +64,20 @@ class SignController extends Controller
                 $infos['jobtitle']=$response['jobtitle'];
             }
             catch (\Illuminate\Http\Client\ConnectionException $e){
-                $infos['jobtitle']="don't work i am princess";
+                $infos['jobtitle']="Something went wrong try to update your info later...";
             }
 
             //////the Digest of CV///////////////////////////////////////////////////////////
-//            try {
-//                $response=Http::post($this->portmodel1,[
-//                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
-//                ]);
-//
-//                $infos['about_me']=$response['cv'];
-//            }
-//            catch (\Illuminate\Http\Client\ConnectionException $e){
-//                $infos['about_me']="I am Cool";
-//            }
-            $infos['about_me']="I am Cool";
+            try {
+                $response=Http::post($this->portsummary,[
+                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+                ]);
+
+                $infos['about_me']=$response['summary'];
+            }
+            catch (\Illuminate\Http\Client\ConnectionException $e){
+                $infos['about_me']="there something happend try again";
+            }
 
             if(request('avatar') !== null)
                 $infos['avatar']=\request()->file('avatar')->store('avatar');
@@ -147,21 +148,21 @@ class SignController extends Controller
 
             }
             catch (\Illuminate\Http\Client\ConnectionException $e){
-                $infos['jobtitle']="don't work i am princess";
+                $infos['jobtitle']="Something went wrong try to update your info later...";
 
             }
 
             //the digest of CV////////////////////////////////////////////////////////////////////
-//            try {
-//                $response=Http::post('http://192.168.43.156:3000/userClass',[
-//                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
-//                ]);
-//
-//                $infos['about_me']=$response['cv'];
-//            }
-//            catch (\Illuminate\Http\Client\ConnectionException $e){
-//                $infos['about_me']="I am Cool";
-//            }
+            try {
+                $response=Http::post($this->portsummary,[
+                    'cv'=>$infos['education'].$infos['expirence'].$infos['skills']
+                ]);
+
+                $infos['about_me']=$response['summary'];
+            }
+            catch (\Illuminate\Http\Client\ConnectionException $e){
+                $infos['about_me']="there something happend try again";
+            }
 
             if(request('avatar') !== null) {
                 \Illuminate\Support\Facades\File::delete("storage/".auth()->user()->userinfo->avatar);
@@ -197,8 +198,9 @@ class SignController extends Controller
                 'cv'=>$info['requirement'].$info['expirence']
 
             ]);
+          //  return $response;
+           $info['evaluation']=$response['rating'];
 
-            $infos['evaluation']=$response['rating'];
         }
         catch (\Illuminate\Http\Client\ConnectionException $e){
             $info['evaluation']='2';
